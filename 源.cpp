@@ -31,9 +31,6 @@ using namespace std;
 
 int main()
 {
-    queue<int> qq;
-    qq.push(1);
-    cout << qq.back();
     return 0;
 }
 
