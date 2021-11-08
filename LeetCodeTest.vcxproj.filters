@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="源.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="单向链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉搜索树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="两个链表的第一个公共节点.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="单向链表.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="数字在排序数组中出现的次数.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="0至n-1中缺失的数字.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="左右两边子数组的和相等.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="二叉搜索树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="是否平衡二叉树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="二叉树深度.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="数组中数字出现的次数.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="和为s的两个数字.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="和为s的连续正数序列.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="翻转单词顺序.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="左旋转字符串.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="滑动窗口的最大值.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="队列的最大值.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="n个筛子的点数.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="扑克牌中的顺子.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="圆圈中最后剩下的数字.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="股票的最大利润.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="求1+2+…+n.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="不用加减乘除做加法.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="最小栈.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="用栈实现队列.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="最大值减去最小值小于或等于num的子数组数量.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="用递归函数和栈逆序一个栈.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
