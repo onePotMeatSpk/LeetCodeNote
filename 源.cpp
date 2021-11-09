@@ -26,11 +26,14 @@
 #include"求1+2+…+n.h"
 #include"不用加减乘除做加法.h"
 #include"最大值减去最小值小于或等于num的子数组数量.h"
+#include"最大子矩阵.h"
 
 using namespace std;
 
 int main()
 {
+    vector<vector<int>> v = { {-1,0},{0,-1} };
+    vector<int> vv = getMaxMatrix(v);
     return 0;
 }
 

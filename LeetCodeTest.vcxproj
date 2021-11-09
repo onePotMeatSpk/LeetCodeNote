@@ -161,11 +161,13 @@
     <ClInclude Include="左右两边子数组的和相等.h" />
     <ClInclude Include="数字在排序数组中出现的次数.h" />
     <ClInclude Include="最大值减去最小值小于或等于num的子数组数量.h" />
+    <ClInclude Include="最大子矩阵.h" />
     <ClInclude Include="最小栈.h" />
     <ClInclude Include="求1+2+…+n.h" />
     <ClInclude Include="滑动窗口的最大值.h" />
     <ClInclude Include="用栈实现队列.h" />
     <ClInclude Include="用递归函数和栈逆序一个栈.h" />
+    <ClInclude Include="矩阵中最大的矩形.h" />
     <ClInclude Include="翻转单词顺序.h" />
     <ClInclude Include="股票的最大利润.h" />
     <ClInclude Include="队列的最大值.h" />

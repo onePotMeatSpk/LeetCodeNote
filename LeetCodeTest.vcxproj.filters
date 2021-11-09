@@ -101,5 +101,11 @@
     <ClInclude Include="用递归函数和栈逆序一个栈.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="矩阵中最大的矩形.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="最大子矩阵.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
