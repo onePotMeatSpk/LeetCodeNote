@@ -32,8 +32,11 @@ using namespace std;
 
 int main()
 {
-    vector<vector<int>> v = { {-1,0},{0,-1} };
-    vector<int> vv = getMaxMatrix(v);
+    unsigned int ui = -6;
+    if (ui > 777)
+        cout << ui << endl;
+    else
+        cout << 777 << endl;
     return 0;
 }
 
