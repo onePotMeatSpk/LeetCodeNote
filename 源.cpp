@@ -27,6 +27,7 @@
 #include"不用加减乘除做加法.h"
 #include"最大值减去最小值小于或等于num的子数组数量.h"
 #include"最大子矩阵.h"
+#include"将单向链表按某值划分为左边小，中间相等，右边大的形式.h"
 
 using namespace std;
 
