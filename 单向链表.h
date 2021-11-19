@@ -10,6 +10,7 @@ struct ListNode
 	ListNode* next;
 	ListNode() : val(0), next(NULL) {};
 	ListNode(int x) : val(x), next(NULL) {};
+	ListNode(int x, ListNode* next) : val(x), next(next) {}
 };
 
 //创建单向链表函数（输入一个vector）

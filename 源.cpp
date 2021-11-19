@@ -28,16 +28,21 @@
 #include"最大值减去最小值小于或等于num的子数组数量.h"
 #include"最大子矩阵.h"
 #include"将单向链表按某值划分为左边小，中间相等，右边大的形式.h"
+#include"链表中的两数相加.h"
 
 using namespace std;
 
 int main()
 {
-    unsigned int ui = -6;
-    if (ui > 777)
-        cout << ui << endl;
-    else
-        cout << 777 << endl;
+    vector<int> v1 = { 7,2,4,3 }, v2 = { 5,6,4 };
+    ListNode* l1 = createList(v1);
+    printList(l1);
+    ListNode* l2 = createList(v2);
+    printList(l2);
+
+    ListNode* l3 = addTwoNumbers(l1, l2);
+    printList(l3);
+
     return 0;
 }
 
