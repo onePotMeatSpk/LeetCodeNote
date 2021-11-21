@@ -149,6 +149,7 @@
     <ClInclude Include="二叉搜索树.h" />
     <ClInclude Include="二叉树深度.h" />
     <ClInclude Include="删除链表中倒数第n个节点.h" />
+    <ClInclude Include="单向链表每k个节点之间逆序.h" />
     <ClInclude Include="和为s的两个数字.h" />
     <ClInclude Include="和为s的连续正数序列.h" />
     <ClInclude Include="圆圈中最后剩下的数字.h" />

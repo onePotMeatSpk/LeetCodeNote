@@ -113,5 +113,8 @@
     <ClInclude Include="链表中的两数相加.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="单向链表每k个节点之间逆序.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

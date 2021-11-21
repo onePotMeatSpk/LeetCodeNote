@@ -29,18 +29,16 @@
 #include"最大子矩阵.h"
 #include"将单向链表按某值划分为左边小，中间相等，右边大的形式.h"
 #include"链表中的两数相加.h"
+#include"单向链表每k个节点之间逆序.h"
 
 using namespace std;
 
 int main()
 {
-    vector<int> v1 = { 7,2,4,3 }, v2 = { 5,6,4 };
+    vector<int> v1 = { 1,2,3,4,5,6,7,8 };
     ListNode* l1 = createList(v1);
     printList(l1);
-    ListNode* l2 = createList(v2);
-    printList(l2);
-
-    ListNode* l3 = addTwoNumbers(l1, l2);
+    ListNode* l3 = reverse_knode(l1, 3);
     printList(l3);
 
     return 0;
