@@ -30,15 +30,16 @@
 #include"将单向链表按某值划分为左边小，中间相等，右边大的形式.h"
 #include"链表中的两数相加.h"
 #include"单向链表每k个节点之间逆序.h"
+#include"删除无序链表中值重复出现的节点.h"
 
 using namespace std;
 
 int main()
 {
-    vector<int> v1 = { 1,2,3,4,5,6,7,8 };
+    vector<int> v1 = { 5,1,2,3,1,2,3,4,4 };
     ListNode* l1 = createList(v1);
     printList(l1);
-    ListNode* l3 = reverse_knode(l1, 3);
+    ListNode* l3 = remove_rep(l1);
     printList(l3);
 
     return 0;

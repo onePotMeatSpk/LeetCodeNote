@@ -116,5 +116,8 @@
     <ClInclude Include="单向链表每k个节点之间逆序.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="删除无序链表中值重复出现的节点.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

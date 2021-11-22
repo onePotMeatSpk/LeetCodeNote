@@ -12,7 +12,7 @@ typedef ListNode list_node;
 //    //Â³°ô
 //    if (head1 == NULL)
 //        return NULL;
-//    if ((K == 0) || (K == 1))
+//    if (K < 2)
 //        return head1;
 //
 //    stack<int> s;
@@ -59,7 +59,7 @@ list_node* reverse_knode(list_node* head1, int K)
     //Â³°ô
     if (head1 == NULL)
         return NULL;
-    if ((K == 0) || (K == 1))
+    if (K < 2)
         return head1;
 
     list_node* pStart = NULL;

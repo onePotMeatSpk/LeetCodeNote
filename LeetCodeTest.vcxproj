@@ -148,6 +148,7 @@
     <ClInclude Include="两个链表的第一个公共节点.h" />
     <ClInclude Include="二叉搜索树.h" />
     <ClInclude Include="二叉树深度.h" />
+    <ClInclude Include="删除无序链表中值重复出现的节点.h" />
     <ClInclude Include="删除链表中倒数第n个节点.h" />
     <ClInclude Include="单向链表每k个节点之间逆序.h" />
     <ClInclude Include="和为s的两个数字.h" />
