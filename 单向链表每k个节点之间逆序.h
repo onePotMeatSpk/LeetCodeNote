@@ -5,15 +5,63 @@
 using namespace std;
 typedef ListNode list_node;
 
-//辅助栈，时间复杂度O(N)，空间复杂度O(K)
-//记录区间起点
-//每K个元素入栈
-//从区间起点开始，为每个节点赋栈顶的值
+////辅助栈+直接修改节点val，时间复杂度O(N)，空间复杂度O(K)
+////该算法区间结构（中括号内即为区间）：[pStart->...]
+//list_node* reverse_knode(list_node* head1, int K)
+//{
+//    //鲁棒
+//    if (head1 == NULL)
+//        return NULL;
+//    if ((K == 0) || (K == 1))
+//        return head1;
+//
+//    stack<int> s;
+//    list_node* pStart = head1;
+//    list_node* p = NULL;
+//    int count = 1;
+//    while (1)
+//    {
+//        p = pStart;
+//        count = 1;
+//
+//        //区间元素入栈
+//        while (count <= K)
+//        {
+//            //剩余元素不足K，则终结程序
+//            if (p == NULL)    
+//                return head1;
+//            //各元素入栈
+//            s.push(p->val);
+//            p = p->next;
+//            count++;
+//        }
+//
+//        p = pStart;
+//        //区间元素重置
+//        while (!s.empty())
+//        {
+//            p->val = s.top();
+//            s.pop();
+//            p = p->next;
+//        }
+//        //重置区间起点
+//        pStart = p;
+//    }
+//
+//    return head1;
+//}
 
 
-//四个边界指针，时间复杂度O(N)，空间复杂度O(1)
+//四个边界指针+反转链表，时间复杂度O(N)，空间复杂度O(1)
+//该算法区间结构（中括号内即为区间）：pStart->[pSS->...->pEE]->pEnd
 list_node* reverse_knode(list_node* head1, int K)
 {
+    //鲁棒
+    if (head1 == NULL)
+        return NULL;
+    if ((K == 0) || (K == 1))
+        return head1;
+
     list_node* pStart = NULL;
     list_node* pEnd = NULL;
     list_node* pSS = NULL;
@@ -73,10 +121,8 @@ list_node* reverse_knode(list_node* head1, int K)
             newHead = pEE;
         else
             pStart->next = pEE;
-        if (pSS == NULL)
-            return newHead;
-        else
-            pSS->next = pEnd;
+
+        pSS->next = pEnd;
 
         pStart = pSS;
     }
