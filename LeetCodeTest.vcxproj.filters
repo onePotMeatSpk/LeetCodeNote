@@ -125,5 +125,14 @@
     <ClInclude Include="双向链表.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="向有序的环形单链表中插入节点.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="合并两个有序的单链表.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="按照左右半区的方式重新组合单链表.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

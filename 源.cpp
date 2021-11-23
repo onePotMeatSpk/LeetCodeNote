@@ -33,34 +33,14 @@
 #include"单向链表每k个节点之间逆序.h"
 #include"删除无序链表中值重复出现的节点.h"
 #include"将搜索二叉树转换成双向链表.h"
+#include"向有序的环形单链表中插入节点.h"
+#include"合并两个有序的单链表.h"
+#include"按照左右半区的方式重新组合单链表.h"
 
 using namespace std;
 
 int main()
 {
-    vector<int> v = { 6,4,7,2,5,NULL,9,1,3,NULL,NULL,8 };
-    TreeNode* tt = createTree(v);
-    printTreePre(tt);
-
-    cout << "```````````````````" << endl;
-
-    tt = convert(tt);
-    TreeNode* pre = NULL;
-    while (tt)
-    {
-        pre = tt;
-        cout << tt->val << endl;
-        tt = tt->right;
-    }
-
-    tt = pre;
-    while (tt)
-    {
-        pre = tt;
-        cout << tt->val << endl;
-        tt = tt->left;
-    }
-
     return 0;
 }
 
