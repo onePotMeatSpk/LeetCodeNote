@@ -30,14 +30,62 @@ TreeNode* createTree(vector<int>& numsOfTree)
 	queue<TreeNode*> queueOfThisLevel, queueOfNextLevel;
 	TreeNode* head = new TreeNode(numsOfTree[0]);
 	queueOfNextLevel.push(head);
-	int indexAlreadyTraversed = 1;
+	int index = 1;
+	TreeNode* newNode = NULL;
 	while (queueOfNextLevel.size())
 	{
 		queueOfThisLevel = queueOfNextLevel;
 		while (queueOfNextLevel.size())
 			queueOfNextLevel.pop();
-		int numberOfNodesThisLevel = queueOfThisLevel.size();
+		while (queueOfThisLevel.size())
+		{
+			if (index < numsOfTree.size())
+			{
+				if (numsOfTree[index] != NULL)
+				{
+					newNode = new TreeNode(numsOfTree[index++]);
+					queueOfThisLevel.front()->left = newNode;
+					queueOfNextLevel.push(newNode);
+				}
+				else
+					index++;
+				
+			}
+			else
+			{
+				return head;
+			}
+
+			if (index < numsOfTree.size())
+			{
+				if (numsOfTree[index] != NULL)
+				{
+					newNode = new TreeNode(numsOfTree[index++]);
+					queueOfThisLevel.front()->right = newNode;
+					queueOfNextLevel.push(newNode);
+				}
+				else
+					index++;
+			}
+			else
+			{
+				return head;
+			}
+
+			queueOfThisLevel.pop();
+		}
 	}
+
+	return head;
+}
+
+/*´òÓ¡Ê÷£ºÖÐÐò±éÀú*/
+void printTreePre(TreeNode* root)
+{
+	if (!root) return;
+	printTreePre(root->left);
+	cout << root->val << endl;
+	printTreePre(root->right);
 }
 
 /*É¾³ýÊ÷*/

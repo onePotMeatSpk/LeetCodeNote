@@ -10,6 +10,7 @@
 #include<algorithm>
 #include<time.h>
 #include"单向链表.h"
+#include"二叉树.h"
 #include"数字在排序数组中出现的次数.h"
 #include"0至n-1中缺失的数字.h"
 #include"左右两边子数组的和相等.h"
@@ -31,16 +32,34 @@
 #include"链表中的两数相加.h"
 #include"单向链表每k个节点之间逆序.h"
 #include"删除无序链表中值重复出现的节点.h"
+#include"将搜索二叉树转换成双向链表.h"
 
 using namespace std;
 
 int main()
 {
-    vector<int> v1 = { 5,1,2,3,1,2,3,4,4 };
-    ListNode* l1 = createList(v1);
-    printList(l1);
-    ListNode* l3 = remove_rep(l1);
-    printList(l3);
+    vector<int> v = { 6,4,7,2,5,NULL,9,1,3,NULL,NULL,8 };
+    TreeNode* tt = createTree(v);
+    printTreePre(tt);
+
+    cout << "```````````````````" << endl;
+
+    tt = convert(tt);
+    TreeNode* pre = NULL;
+    while (tt)
+    {
+        pre = tt;
+        cout << tt->val << endl;
+        tt = tt->right;
+    }
+
+    tt = pre;
+    while (tt)
+    {
+        pre = tt;
+        cout << tt->val << endl;
+        tt = tt->left;
+    }
 
     return 0;
 }

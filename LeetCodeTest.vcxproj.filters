@@ -35,7 +35,7 @@
     <ClInclude Include="左右两边子数组的和相等.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="二叉搜索树.h">
+    <ClInclude Include="二叉树.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="是否平衡二叉树.h">
@@ -117,6 +117,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="删除无序链表中值重复出现的节点.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="将搜索二叉树转换成双向链表.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="双向链表.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
