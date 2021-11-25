@@ -41,6 +41,19 @@ using namespace std;
 
 int main()
 {
+    vector<int> v = { 1,2,3,4,5,6,7 };
+    TreeNode* t = createTree(v);
+    printTreePreRecursion(t);
+    cout << "---------------------" << endl;
+    printTreePreIteration(t);
+    cout << "---------------------" << endl;
+    printTreeInRecursion(t);
+    cout << "---------------------" << endl;
+    printTreeInIteration(t);
+    cout << "---------------------" << endl;
+    printTreePosRecursion(t);
+    cout << "---------------------" << endl;
+    printTreePosIteration(t);
     return 0;
 }
 

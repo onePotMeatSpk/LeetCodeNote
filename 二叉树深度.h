@@ -1,6 +1,6 @@
 #pragma once
 #include<iostream>
-#include"二叉搜索树.h"
+#include"二叉树.h"
 using namespace std;
 
 /*没什么说的，后序遍历就是了*/
