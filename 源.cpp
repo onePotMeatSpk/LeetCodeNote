@@ -36,24 +36,15 @@
 #include"向有序的环形单链表中插入节点.h"
 #include"合并两个有序的单链表.h"
 #include"按照左右半区的方式重新组合单链表.h"
+#include"较为直观地打印二叉树.h"
 
 using namespace std;
 
 int main()
 {
-    vector<int> v = { 1,2,3,4,5,6,7 };
-    TreeNode* t = createTree(v);
-    printTreePreRecursion(t);
-    cout << "---------------------" << endl;
-    printTreePreIteration(t);
-    cout << "---------------------" << endl;
-    printTreeInRecursion(t);
-    cout << "---------------------" << endl;
-    printTreeInIteration(t);
-    cout << "---------------------" << endl;
-    printTreePosRecursion(t);
-    cout << "---------------------" << endl;
-    printTreePosIteration(t);
+    vector<int>v = { 1,2,3,4,5,NULL,6,7,NULL,NULL,8 };
+    TreeNode* tt = createTree(v);
+    printTreeDirectly(tt);
     return 0;
 }
 
