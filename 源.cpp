@@ -7,6 +7,8 @@
 #include<stack>
 #include<set>
 #include<map>
+#include<unordered_set>
+#include<unordered_map>
 #include<algorithm>
 #include<time.h>
 #include"µ•œÚ¡¥±Ì.h"
@@ -42,9 +44,14 @@ using namespace std;
 
 int main()
 {
-    vector<int>v = { 1,2,3,4,5,NULL,6,7,NULL,NULL,8 };
-    TreeNode* tt = createTree(v);
-    printTreeDirectly(tt);
+    vector<int>v;
+    cout << v.capacity() << endl;
+    v.push_back(1);
+    cout << v.capacity() << endl;
+
+    unordered_set<int> s;
+    cout << s.size() << endl;
+    cout << s.bucket_count() << endl;
     return 0;
 }
 
