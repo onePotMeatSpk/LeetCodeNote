@@ -160,6 +160,7 @@
     <ClInclude Include="将单向链表按某值划分为左边小，中间相等，右边大的形式.h" />
     <ClInclude Include="将搜索二叉树转换成双向链表.h" />
     <ClInclude Include="左旋转字符串.h" />
+    <ClInclude Include="序列化和反序列化二叉树.h" />
     <ClInclude Include="扑克牌中的顺子.h" />
     <ClInclude Include="按照左右半区的方式重新组合单链表.h" />
     <ClInclude Include="数组中数字出现的次数.h" />

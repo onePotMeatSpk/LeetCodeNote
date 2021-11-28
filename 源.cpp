@@ -39,6 +39,7 @@
 #include"合并两个有序的单链表.h"
 #include"按照左右半区的方式重新组合单链表.h"
 #include"较为直观地打印二叉树.h"
+#include"序列化和反序列化二叉树.h"
 
 using namespace std;
 
