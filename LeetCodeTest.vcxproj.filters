@@ -140,5 +140,11 @@
     <ClInclude Include="序列化和反序列化二叉树.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="二叉搜索树迭代器.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="树的子结构.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
