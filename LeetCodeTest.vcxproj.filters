@@ -146,5 +146,8 @@
     <ClInclude Include="树的子结构.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="层序打印和Z形打印二叉树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

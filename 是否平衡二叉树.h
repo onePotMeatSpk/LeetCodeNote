@@ -1,6 +1,6 @@
 #pragma once
 #include<iostream>
-#include"二叉搜索树.h"
+#include"二叉树.h"
 using namespace std;
 
 /*核心思想：后序遍历，先判断左右子树是否为平衡二叉树，再判断根节点是否为平衡二叉树
