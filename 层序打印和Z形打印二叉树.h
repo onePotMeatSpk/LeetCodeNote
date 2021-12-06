@@ -7,6 +7,7 @@
 
 using namespace std;
 
+
 //≤„–Ú¥Ú”°
 vector<vector<int>> levelOrder(TreeNode* root) {
 	queue<TreeNode*> nextLevel, thisLevel;

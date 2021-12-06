@@ -149,5 +149,14 @@
     <ClInclude Include="层序打印和Z形打印二叉树.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="判断数组是否二叉搜索树树后序遍历结果.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="根据后序数组重建二叉搜索树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="使用有序数组创建平衡搜索二叉树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

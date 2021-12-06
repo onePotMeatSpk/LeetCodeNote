@@ -40,19 +40,26 @@
 #include"按照左右半区的方式重新组合单链表.h"
 #include"较为直观地打印二叉树.h"
 #include"序列化和反序列化二叉树.h"
+#include"树的子结构.h"
+#include"二叉搜索树迭代器.h"
+#include"二叉搜索树迭代器.h"
+#include"层序打印和Z形打印二叉树.h"
+#include"是否平衡二叉树.h"
+#include"判断数组是否二叉搜索树树后序遍历结果.h"
+#include"根据后序数组重建二叉搜索树.h"
+#include"使用有序数组创建平衡搜索二叉树.h"
 
 using namespace std;
 
 int main()
 {
-    vector<int>v;
-    cout << v.capacity() << endl;
-    v.push_back(1);
-    cout << v.capacity() << endl;
+    vector<int> v = { 1,2,3,4,5,7,9,10,111 };
+    TreeNode* t = buildBalancedBSTUsingSortedArray(v);
+    printTreePreIteration(t);
+    if (isBalanced(t))   cout << "YEP" << endl;
+    else cout << "NOP" << endl;
 
-    unordered_set<int> s;
-    cout << s.size() << endl;
-    cout << s.bucket_count() << endl;
+
     return 0;
 }
 

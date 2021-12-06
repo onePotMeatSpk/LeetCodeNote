@@ -149,8 +149,10 @@
     <ClInclude Include="二叉搜索树迭代器.h" />
     <ClInclude Include="二叉树.h" />
     <ClInclude Include="二叉树深度.h" />
+    <ClInclude Include="使用有序数组创建平衡搜索二叉树.h" />
     <ClInclude Include="删除无序链表中值重复出现的节点.h" />
     <ClInclude Include="删除链表中倒数第n个节点.h" />
+    <ClInclude Include="判断数组是否二叉搜索树树后序遍历结果.h" />
     <ClInclude Include="单向链表每k个节点之间逆序.h" />
     <ClInclude Include="双向链表.h" />
     <ClInclude Include="合并两个有序的单链表.h" />
@@ -174,6 +176,7 @@
     <ClInclude Include="最大子矩阵.h" />
     <ClInclude Include="最小栈.h" />
     <ClInclude Include="树的子结构.h" />
+    <ClInclude Include="根据后序数组重建二叉搜索树.h" />
     <ClInclude Include="求1+2+…+n.h" />
     <ClInclude Include="滑动窗口的最大值.h" />
     <ClInclude Include="用栈实现队列.h" />
