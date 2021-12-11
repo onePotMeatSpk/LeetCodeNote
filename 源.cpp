@@ -48,18 +48,18 @@
 #include"判断数组是否二叉搜索树树后序遍历结果.h"
 #include"根据后序数组重建二叉搜索树.h"
 #include"使用有序数组创建平衡搜索二叉树.h"
+#include"通过前序和中序数组生成后序数组.h"
+#include"数组中重复的数字.h"
 
 using namespace std;
 
 int main()
 {
-    vector<int> v = { 1,2,3,4,5,7,9,10,111 };
-    TreeNode* t = buildBalancedBSTUsingSortedArray(v);
-    printTreePreIteration(t);
-    if (isBalanced(t))   cout << "YEP" << endl;
-    else cout << "NOP" << endl;
-
-
+    vector<int> pre = { 1,2,4,5,3,6,7 };
+    vector<int> in = { 4,2,5,1,6,3,7 };
+    vector<int>pos = getPosArrayWithPreAndIn(pre, in);
+    for (int i = 0; i < pos.size(); i++)
+        cout << pos[i] << endl;
     return 0;
 }
 

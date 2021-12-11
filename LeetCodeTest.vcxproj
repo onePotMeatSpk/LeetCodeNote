@@ -149,6 +149,7 @@
     <ClInclude Include="二叉搜索树迭代器.h" />
     <ClInclude Include="二叉树.h" />
     <ClInclude Include="二叉树深度.h" />
+    <ClInclude Include="二维数组中的查找.h" />
     <ClInclude Include="使用有序数组创建平衡搜索二叉树.h" />
     <ClInclude Include="删除无序链表中值重复出现的节点.h" />
     <ClInclude Include="删除链表中倒数第n个节点.h" />
@@ -168,6 +169,7 @@
     <ClInclude Include="扑克牌中的顺子.h" />
     <ClInclude Include="按照左右半区的方式重新组合单链表.h" />
     <ClInclude Include="数组中数字出现的次数.h" />
+    <ClInclude Include="数组中重复的数字.h" />
     <ClInclude Include="是否平衡二叉树.h" />
     <ClInclude Include="单向链表.h" />
     <ClInclude Include="左右两边子数组的和相等.h" />
@@ -185,6 +187,7 @@
     <ClInclude Include="翻转单词顺序.h" />
     <ClInclude Include="股票的最大利润.h" />
     <ClInclude Include="较为直观地打印二叉树.h" />
+    <ClInclude Include="通过前序和中序数组生成后序数组.h" />
     <ClInclude Include="部分反转链表.h" />
     <ClInclude Include="链表中的两数相加.h" />
     <ClInclude Include="队列的最大值.h" />

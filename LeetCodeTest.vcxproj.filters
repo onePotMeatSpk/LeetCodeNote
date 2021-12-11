@@ -158,5 +158,14 @@
     <ClInclude Include="使用有序数组创建平衡搜索二叉树.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="通过前序和中序数组生成后序数组.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="数组中重复的数字.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="二维数组中的查找.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

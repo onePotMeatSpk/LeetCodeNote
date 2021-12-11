@@ -15,7 +15,6 @@ struct TreeNode
 };
 
 /*创建新树，拷贝另一个树*/
-template<typename T>
 TreeNode* createTree(TreeNode* root)
 {
 	if (root == NULL)	return NULL;
