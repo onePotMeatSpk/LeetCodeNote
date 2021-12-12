@@ -174,10 +174,12 @@
     <ClInclude Include="单向链表.h" />
     <ClInclude Include="左右两边子数组的和相等.h" />
     <ClInclude Include="数字在排序数组中出现的次数.h" />
+    <ClInclude Include="替换空格.h" />
     <ClInclude Include="最大值减去最小值小于或等于num的子数组数量.h" />
     <ClInclude Include="最大子矩阵.h" />
     <ClInclude Include="最小栈.h" />
     <ClInclude Include="树的子结构.h" />
+    <ClInclude Include="根据前序数组和后序数组重建二叉树.h" />
     <ClInclude Include="根据后序数组重建二叉搜索树.h" />
     <ClInclude Include="求1+2+…+n.h" />
     <ClInclude Include="滑动窗口的最大值.h" />

@@ -50,16 +50,13 @@
 #include"使用有序数组创建平衡搜索二叉树.h"
 #include"通过前序和中序数组生成后序数组.h"
 #include"数组中重复的数字.h"
+#include"二维数组中的查找.h"
+#include"替换空格.h"
 
 using namespace std;
 
 int main()
 {
-    vector<int> pre = { 1,2,4,5,3,6,7 };
-    vector<int> in = { 4,2,5,1,6,3,7 };
-    vector<int>pos = getPosArrayWithPreAndIn(pre, in);
-    for (int i = 0; i < pos.size(); i++)
-        cout << pos[i] << endl;
     return 0;
 }
 
