@@ -53,17 +53,14 @@
 #include"二维数组中的查找.h"
 #include"替换空格.h"
 #include"旋转数组的最小数字.h"
+#include"矩阵中的路径.h"
 
 using namespace std;
 
 int main()
 {
-
-    vector<int> v1 = { 1,1 };
-
-
-    cout << minArray(v1) << endl;
-
+    vector<vector<char>> v = {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'} };
+    cout << isWordExistInBoard(v, "ABCCED") << endl;
     return 0;
 }
 

@@ -187,6 +187,7 @@
     <ClInclude Include="用栈实现队列.h" />
     <ClInclude Include="用递归函数和栈逆序一个栈.h" />
     <ClInclude Include="矩阵中最大的矩形.h" />
+    <ClInclude Include="矩阵中的路径.h" />
     <ClInclude Include="翻转单词顺序.h" />
     <ClInclude Include="股票的最大利润.h" />
     <ClInclude Include="较为直观地打印二叉树.h" />

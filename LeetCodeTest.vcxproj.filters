@@ -176,5 +176,8 @@
     <ClInclude Include="旋转数组的最小数字.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="矩阵中的路径.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
