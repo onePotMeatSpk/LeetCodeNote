@@ -52,11 +52,18 @@
 #include"数组中重复的数字.h"
 #include"二维数组中的查找.h"
 #include"替换空格.h"
+#include"旋转数组的最小数字.h"
 
 using namespace std;
 
 int main()
 {
+
+    vector<int> v1 = { 1,1 };
+
+
+    cout << minArray(v1) << endl;
+
     return 0;
 }
 

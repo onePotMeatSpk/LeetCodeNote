@@ -173,5 +173,8 @@
     <ClInclude Include="根据前序数组和后序数组重建二叉树.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="旋转数组的最小数字.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
