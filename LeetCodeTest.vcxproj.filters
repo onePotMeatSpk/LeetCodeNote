@@ -179,5 +179,8 @@
     <ClInclude Include="矩阵中的路径.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="机器人的运动范围.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

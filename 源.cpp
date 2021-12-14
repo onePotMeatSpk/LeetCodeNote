@@ -54,13 +54,13 @@
 #include"替换空格.h"
 #include"旋转数组的最小数字.h"
 #include"矩阵中的路径.h"
+#include"机器人的运动范围.h"
 
 using namespace std;
 
 int main()
 {
-    vector<vector<char>> v = {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'} };
-    cout << isWordExistInBoard(v, "ABCCED") << endl;
+    cout << sumEveryBit(111) << endl;
     return 0;
 }
 
