@@ -55,12 +55,13 @@
 #include"旋转数组的最小数字.h"
 #include"矩阵中的路径.h"
 #include"机器人的运动范围.h"
+#include"剪绳子.h"
 
 using namespace std;
 
 int main()
 {
-    cout << sumEveryBit(111) << endl;
+
     return 0;
 }
 

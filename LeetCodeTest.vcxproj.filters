@@ -18,6 +18,9 @@
     <ClCompile Include="源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="剪绳子2.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="两个链表的第一个公共节点.h">
@@ -180,6 +183,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="机器人的运动范围.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="剪绳子.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

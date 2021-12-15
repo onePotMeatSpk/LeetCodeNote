@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="剪绳子2.cpp" />
     <ClCompile Include="源.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">/d1 reportAllClassLayout %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
@@ -182,6 +183,7 @@
     <ClInclude Include="最大子矩阵.h" />
     <ClInclude Include="最小栈.h" />
     <ClInclude Include="机器人的运动范围.h" />
+    <ClInclude Include="剪绳子.h" />
     <ClInclude Include="树的子结构.h" />
     <ClInclude Include="根据前序数组和后序数组重建二叉树.h" />
     <ClInclude Include="根据后序数组重建二叉搜索树.h" />
