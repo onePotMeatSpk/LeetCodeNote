@@ -171,6 +171,7 @@
     <ClInclude Include="序列化和反序列化二叉树.h" />
     <ClInclude Include="扑克牌中的顺子.h" />
     <ClInclude Include="按照左右半区的方式重新组合单链表.h" />
+    <ClInclude Include="数值的整数次方.h" />
     <ClInclude Include="数组中数字出现的次数.h" />
     <ClInclude Include="数组中重复的数字.h" />
     <ClInclude Include="旋转数组的最小数字.h" />

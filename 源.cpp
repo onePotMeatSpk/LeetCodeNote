@@ -56,11 +56,15 @@
 #include"矩阵中的路径.h"
 #include"机器人的运动范围.h"
 #include"剪绳子.h"
+#include"数值的整数次方.h"
 
 using namespace std;
 
 int main()
 {
+
+    cout << myPow(2,2)<< endl;
+
 
     return 0;
 }
