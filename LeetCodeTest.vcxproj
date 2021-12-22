@@ -140,13 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="剪绳子2.cpp" />
-    <ClCompile Include="源.cpp">
-      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">/d1 reportAllClassLayout %(AdditionalOptions)</AdditionalOptions>
-    </ClCompile>
+    <ClCompile Include="源.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="0至n-1中缺失的数字.h" />
     <ClInclude Include="n个筛子的点数.h" />
+    <ClInclude Include="O(1)删除链表内某节点.h" />
     <ClInclude Include="不用加减乘除做加法.h" />
     <ClInclude Include="两个链表的第一个公共节点.h" />
     <ClInclude Include="二叉搜索树迭代器.h" />
@@ -170,6 +169,7 @@
     <ClInclude Include="左旋转字符串.h" />
     <ClInclude Include="序列化和反序列化二叉树.h" />
     <ClInclude Include="扑克牌中的顺子.h" />
+    <ClInclude Include="打印从1到最大n位数.h" />
     <ClInclude Include="按照左右半区的方式重新组合单链表.h" />
     <ClInclude Include="数值的整数次方.h" />
     <ClInclude Include="数组中数字出现的次数.h" />

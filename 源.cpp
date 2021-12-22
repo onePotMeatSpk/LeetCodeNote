@@ -1,3 +1,4 @@
+#pragma once
 #include<iostream>
 #include<string>
 #include<vector>
@@ -57,14 +58,17 @@
 #include"机器人的运动范围.h"
 #include"剪绳子.h"
 #include"数值的整数次方.h"
+#include"打印从1到最大n位数.h"
+#include"O(1)删除链表内某节点.h"
 
 using namespace std;
 
 int main()
 {
-
-    cout << myPow(2,2)<< endl;
-
+    vector<int> v = { 1,2,3 };
+    ListNode* l = createList(v);
+    deleteOneNode(l, l->next->next);
+    printList(l);
 
     return 0;
 }
