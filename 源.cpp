@@ -65,11 +65,7 @@ using namespace std;
 
 int main()
 {
-    vector<int> v = { 1,2,3 };
-    ListNode* l = createList(v);
-    deleteOneNode(l, l->next->next);
-    printList(l);
-
-    return 0;
+	cout << -1 % 2 << endl;
+	return 0;
 }
 

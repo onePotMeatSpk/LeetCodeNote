@@ -9,31 +9,38 @@ using namespace std;
 double myPowIteration(double x, int n) {
 	if (x == 0)	return 0;
 	if (n == 0)	return 1;
-	if (n == 1)	return x;
-	if (n == -1)	return 1 / x;
-	
 
-	bool flagPostive = n > 0;
-	int nabs = flagPostive ? n : -(n + 1);
-
-	double ret = 1, now = x;
-
-	while (nabs)
+	int tempN = 0;
+	double tempX = 0;
+	if (n > 0)
 	{
-		if (nabs & 1)
-			ret *= now;
-		nabs >>= 1;
-		now *= now;
+		tempN = n;
+		tempX = x;
+	}
+	else
+	{
+		tempN = -(n + 1);
+		tempX = 1 / x;
 	}
 
-	if (!flagPostive)
-		ret = 1 / (ret * x);
-	return ret;
+	double res = 1;
+	while (tempN)
+	{
+		if (tempN & 1)
+			res *= tempX;
+		tempX *= tempX;
+		tempN >>= 1;
+	}
+
+	if (n < 0)
+		res *= (1 / x);
+	return res;
 }
 
 
 //快速幂（二分法），时间复杂度O(logN)，空间复杂度O(1)
 double myPowRecursion(double x, int n) {
+
 	if (x == 0)	return 0;
 	if (n == 0)	return 1;
 	if (n == 1)	return x;
