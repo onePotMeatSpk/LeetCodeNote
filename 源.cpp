@@ -1,4 +1,5 @@
 #pragma once
+#include<cstdio>
 #include<iostream>
 #include<string>
 #include<vector>
@@ -65,7 +66,7 @@ using namespace std;
 
 int main()
 {
-	cout << -1 % 2 << endl;
-	return 0;
+
+	return(0);
 }
 

@@ -197,5 +197,8 @@
     <ClInclude Include="O(1)删除链表内某节点.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="两两交换链表中的节点.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

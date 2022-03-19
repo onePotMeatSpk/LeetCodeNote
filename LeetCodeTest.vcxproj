@@ -147,6 +147,7 @@
     <ClInclude Include="n个筛子的点数.h" />
     <ClInclude Include="O(1)删除链表内某节点.h" />
     <ClInclude Include="不用加减乘除做加法.h" />
+    <ClInclude Include="两两交换链表中的节点.h" />
     <ClInclude Include="两个链表的第一个公共节点.h" />
     <ClInclude Include="二叉搜索树迭代器.h" />
     <ClInclude Include="二叉树.h" />
