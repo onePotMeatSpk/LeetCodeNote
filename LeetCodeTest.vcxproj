@@ -164,6 +164,7 @@
     <ClInclude Include="和为s的两个数字.h" />
     <ClInclude Include="和为s的连续正数序列.h" />
     <ClInclude Include="圆圈中最后剩下的数字.h" />
+    <ClInclude Include="奇偶链表.h" />
     <ClInclude Include="将单向链表按某值划分为左边小，中间相等，右边大的形式.h" />
     <ClInclude Include="将搜索二叉树转换成双向链表.h" />
     <ClInclude Include="层序打印和Z形打印二叉树.h" />
