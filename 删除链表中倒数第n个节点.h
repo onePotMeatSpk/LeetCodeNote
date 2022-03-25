@@ -1,55 +1,32 @@
 #pragma once
 #include"单向链表.h"
 
-ListNode* removeNthFromEnd(ListNode* head, int n) {
-    //特殊情形1：若链表仅有1节点，且删除倒1节点
-    if (head->next == NULL && n == 1)
-        return NULL;
+ListNode* removeNthFromEnd(ListNode * head, int n) {
+    //鲁棒
+    if (n <= 0)
+        return head;
 
-
-    ListNode* pFast = head;
-    ListNode* pSlow = head;
-    ListNode* pPre = head;//前指针必须初始化为head，因为程序可能不会进入36行的循环
-    ListNode* pNext = NULL;
+    ListNode* pFast = head;//快指针
+    ListNode* pSlow = head;//慢指针
+    ListNode* dummy = new ListNode(0, head);//虚拟节点，用于指向头结点
+    ListNode* prev = dummy;//删除节点的前面的节点
 
     //快指针先走n步
     for (int i = 0; i < n; i++)
     {
-        //快指针中途变NULL，说明链表节点不足k
-        if (pFast == NULL)
+        if (pFast == NULL)//没走完n步就NULL了，说明链表里面不够n个节点
             return head;
-
         pFast = pFast->next;
     }
 
-    //快慢指针同时向后走
-    //快指针到达NULL时，慢指针即为倒n节点
-    while (pFast != NULL)
+    //快慢指针一起走，直到快指针NULL
+    while (pFast)
     {
-        //记录下慢指针前后节点
-        pPre = pSlow;
+        pFast = pFast->next;
+        prev = pSlow;
         pSlow = pSlow->next;
-        pFast = pFast->next;
     }
-    pNext = pSlow->next;//后指针必须在循环后记录，因为程序有可能不会进入循环
-
-    //特殊情形2：删除节点为尾结点
-    if (pSlow->next == NULL)
-    {
-        pPre->next = NULL;
-        return head;
-    }
-
-    //特殊情形3：删除节点为头结点
-    if (pSlow == head)
-    {
-        pSlow->next = NULL;
-        return pNext;
-    }
-
-    //一般情形
-    pSlow->next = NULL;
-    pPre->next = pNext;
-    return head;
-
+    prev->next = pSlow->next;
+    delete(pSlow);
+    return dummy->next;
 }
