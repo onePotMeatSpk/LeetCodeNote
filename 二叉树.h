@@ -25,7 +25,7 @@ TreeNode* createTree(TreeNode* root)
 }
 
 /*创建新树，根据leetcode二叉树表示原则，层序遍历*/
-TreeNode* createTree(vector<int>& numsOfTree)
+TreeNode* createTree(vector<int> numsOfTree)
 {
 	if (numsOfTree.empty())	return NULL;
 	queue<TreeNode*> queueOfThisLevel, queueOfNextLevel;

@@ -144,6 +144,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="0至n-1中缺失的数字.h" />
+    <ClInclude Include="includeall.h" />
     <ClInclude Include="n个筛子的点数.h" />
     <ClInclude Include="O(1)删除链表内某节点.h" />
     <ClInclude Include="不用加减乘除做加法.h" />
@@ -152,8 +153,12 @@
     <ClInclude Include="二叉搜索树迭代器.h" />
     <ClInclude Include="二叉树.h" />
     <ClInclude Include="二叉树深度.h" />
+    <ClInclude Include="二叉树的层平均值.h" />
+    <ClInclude Include="二叉树的直径.h" />
+    <ClInclude Include="二叉树路径和.h" />
     <ClInclude Include="二维数组中的查找.h" />
     <ClInclude Include="使用有序数组创建平衡搜索二叉树.h" />
+    <ClInclude Include="删点成林.h" />
     <ClInclude Include="删除无序链表中值重复出现的节点.h" />
     <ClInclude Include="删除链表中倒数第n个节点.h" />
     <ClInclude Include="判断数组是否二叉搜索树树后序遍历结果.h" />
@@ -177,6 +182,7 @@
     <ClInclude Include="数组中数字出现的次数.h" />
     <ClInclude Include="数组中重复的数字.h" />
     <ClInclude Include="旋转数组的最小数字.h" />
+    <ClInclude Include="是否对称二叉树.h" />
     <ClInclude Include="是否平衡二叉树.h" />
     <ClInclude Include="单向链表.h" />
     <ClInclude Include="左右两边子数组的和相等.h" />

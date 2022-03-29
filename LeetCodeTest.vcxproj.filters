@@ -203,5 +203,23 @@
     <ClInclude Include="奇偶链表.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="二叉树的直径.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="是否对称二叉树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="二叉树路径和.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="删点成林.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includeall.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="二叉树的层平均值.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
