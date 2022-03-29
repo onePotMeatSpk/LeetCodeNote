@@ -136,6 +136,7 @@ void printTreePreIteration(TreeNode* root)
 		cout << s.top()->val << endl;
 		temp = s.top();
 		s.pop();
+		//一定要先入右，后入左，这样弹栈并且打印的时候才能是先左后右
 		if (temp->right)	s.push(temp->right);
 		if (temp->left)	s.push(temp->left);
 	}
