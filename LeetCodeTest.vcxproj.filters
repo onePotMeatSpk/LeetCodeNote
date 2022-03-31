@@ -224,5 +224,11 @@
     <ClInclude Include="恢复二叉搜索树.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="修剪二叉搜索树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="字典树前缀树（不含删除操作）.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
