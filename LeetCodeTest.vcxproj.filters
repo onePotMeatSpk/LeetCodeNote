@@ -251,5 +251,8 @@
     <ClInclude Include="两数之和 IV - 输入 BST.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="删除二叉搜索树中的节点.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
