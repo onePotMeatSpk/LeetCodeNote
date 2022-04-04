@@ -158,7 +158,7 @@
     <ClInclude Include="根据后序数组重建二叉搜索树.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="使用有序数组创建平衡搜索二叉树.h">
+    <ClInclude Include="递增链表递增数组转化为二叉搜索树.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="通过前序和中序数组生成后序数组.h">
@@ -228,6 +228,27 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="字典树前缀树（不含删除操作）.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="所有左叶子之和.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="二叉树最左下角的值.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="把二叉搜索树转换为累加树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="二叉搜索树的最小绝对差.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="两二叉树节点的最低祖先.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="递增顺序搜索树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="两数之和 IV - 输入 BST.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
