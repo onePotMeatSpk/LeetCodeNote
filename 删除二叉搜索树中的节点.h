@@ -3,8 +3,10 @@
 
 //方法一（递归），只更改指向关系，不修改节点值
 TreeNode* deleteNodeBST1(TreeNode* root, int key) {
+	//没有找到要删除的节点
 	if (!root)	return NULL;
 
+	//寻找要删除的节点
 	if (key < root->val)
 	{
 		root->left = deleteNodeBST1(root->left, key);
@@ -16,31 +18,36 @@ TreeNode* deleteNodeBST1(TreeNode* root, int key) {
 		return root;
 	}
 
+	//找到要删除的节点
+	//叶子结点
 	if (!root->left && !root->right)
 	{
 		delete(root);
 		return NULL;
 	}
-
+	//左右子树均在
 	if (root->left && root->right)
 	{
+		//找到右子树的最左叶子RL
 		TreeNode* RL = root->right;
 		while (RL->left)
 			RL = RL->left;
+		//左子树的右子树嫁接到RL
 		RL->left = root->left->right;
+		//右子树成为左子树的右子树
 		root->left->right = root->right;
+		//删root，并返回新root
 		TreeNode* temp = root->left;
 		delete(root);
 		return temp;
 	}
-
+	//仅一边子树在
 	if (root->left)
 	{
 		TreeNode* temp = root->left;
 		delete(root);
 		return temp;
 	}
-	
 	if (root->right)
 	{
 		TreeNode* temp = root->right;
