@@ -13,6 +13,7 @@
 #include<unordered_map>
 #include<algorithm>
 #include<time.h>
+#include<math.h>
 #include"单向链表.h"
 #include"二叉树.h"
 #include"数字在排序数组中出现的次数.h"
@@ -49,7 +50,7 @@
 #include"是否平衡二叉树.h"
 #include"判断数组是否二叉搜索树树后序遍历结果.h"
 #include"根据后序数组重建二叉搜索树.h"
-#include"使用有序数组创建平衡搜索二叉树.h"
+//#include"使用有序数组创建平衡搜索二叉树.h"
 #include"通过前序和中序数组生成后序数组.h"
 #include"数组中重复的数字.h"
 #include"二维数组中的查找.h"

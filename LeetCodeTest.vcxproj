@@ -162,6 +162,9 @@
     <ClInclude Include="二叉树路径和.h" />
     <ClInclude Include="二维数组中的查找.h" />
     <ClInclude Include="删除二叉搜索树中的节点.h" />
+    <ClInclude Include="寻找两个正序数组中的中位数.h" />
+    <ClInclude Include="搜索旋转排序数组.h" />
+    <ClInclude Include="有序数组中的单一元素.h" />
     <ClInclude Include="递增顺序搜索树.h" />
     <ClInclude Include="递增链表递增数组转化为二叉搜索树.h" />
     <ClInclude Include="修剪二叉搜索树.h" />

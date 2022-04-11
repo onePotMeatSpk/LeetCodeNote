@@ -254,5 +254,14 @@
     <ClInclude Include="删除二叉搜索树中的节点.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="搜索旋转排序数组.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="有序数组中的单一元素.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="寻找两个正序数组中的中位数.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
