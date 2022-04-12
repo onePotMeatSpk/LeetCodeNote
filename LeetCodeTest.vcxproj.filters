@@ -176,7 +176,7 @@
     <ClInclude Include="根据前序数组和中序数组重建二叉树.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="旋转数组的最小数字.h">
+    <ClInclude Include="旋转排序数组中的最小值.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="矩阵中的路径.h">
@@ -261,6 +261,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="寻找两个正序数组中的中位数.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="数组中的第K个最大元素.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

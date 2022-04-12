@@ -13,7 +13,7 @@ using namespace std;
 //              换言之，A[k/2]顶多是第k-1小，所以A中A[k/2]以及其之前的数字都不可能是第k小，故而被淘汰
 //              更新一波k，并从被淘汰的数字之后开始新的迭代，直到k为1
 //
-double findKthSmallest(vector<int>& nums1, vector<int>& nums2, int k)
+double findKthSmallestInTwoSortedArray(vector<int>& nums1, vector<int>& nums2, int k)
 {
     int start1 = 0, start2 = 0, cur1, cur2;
     while (k > 1)
@@ -44,6 +44,6 @@ double findKthSmallest(vector<int>& nums1, vector<int>& nums2, int k)
 }
 double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
     int len = nums1.size() + nums2.size();
-    if (len & 1) return findKthSmallest(nums1, nums2, len / 2 + 1);
-    else    return (findKthSmallest(nums1, nums2, len / 2) + findKthSmallest(nums1, nums2, len / 2 + 1)) / 2;
+    if (len & 1) return findKthSmallestInTwoSortedArray(nums1, nums2, len / 2 + 1);
+    else    return (findKthSmallestInTwoSortedArray(nums1, nums2, len / 2) + findKthSmallestInTwoSortedArray(nums1, nums2, len / 2 + 1)) / 2;
 }
