@@ -55,7 +55,7 @@
 #include"数组中重复的数字.h"
 #include"二维数组中的查找.h"
 #include"替换空格.h"
-#include"旋转数组的最小数字.h"
+#include"旋转排序数组中的最小值.h"
 #include"矩阵中的路径.h"
 #include"机器人的运动范围.h"
 #include"剪绳子.h"

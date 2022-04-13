@@ -266,5 +266,8 @@
     <ClInclude Include="数组中的第K个最大元素.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="根据字符出现频率排序.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
