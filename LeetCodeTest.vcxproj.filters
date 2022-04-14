@@ -269,5 +269,11 @@
     <ClInclude Include="三数之和.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="岛屿的最大面积.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="省份数量%28朋友圈%29.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
