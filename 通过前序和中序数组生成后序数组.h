@@ -1,6 +1,5 @@
 #pragma once
 #include<vector>
-#include<iostream>
 using namespace std;
 
 void getPosArrayWithPreAndInCore(const vector<int>& preArray, int preL, int preR,

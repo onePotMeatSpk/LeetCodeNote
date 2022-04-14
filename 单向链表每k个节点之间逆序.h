@@ -1,6 +1,5 @@
 #pragma once
 #include"µ•œÚ¡¥±Ì.h"
-#include<iostream>
 #include<stack>
 using namespace std;
 typedef ListNode list_node;

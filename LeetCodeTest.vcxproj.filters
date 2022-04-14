@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="源.cpp">
+    <ClCompile Include="simpletest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="剪绳子2.cpp">
@@ -149,9 +149,6 @@
     <ClInclude Include="树的子结构.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="层序打印和Z形打印二叉树.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="判断数组是否二叉搜索树树后序遍历结果.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -267,6 +264,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="根据字符出现频率排序.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="三数之和.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

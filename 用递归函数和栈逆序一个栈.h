@@ -1,6 +1,5 @@
 #pragma once
 #include<stack>
-#include<iostream>
 using namespace std;
 
 int getAndPopLastEle(stack<int>& s)

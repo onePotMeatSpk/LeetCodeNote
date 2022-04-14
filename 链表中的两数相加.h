@@ -1,7 +1,6 @@
 #pragma once
 #include<stack>
 #include"µ•œÚ¡¥±Ì.h"
-#include<iostream>
 using namespace std;
 
 

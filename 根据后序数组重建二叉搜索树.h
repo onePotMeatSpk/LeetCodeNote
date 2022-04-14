@@ -1,7 +1,6 @@
 #pragma once
 #include<vector>
 #include"¶þ²æÊ÷.h"
-#include<iostream>
 using namespace std;
 
 

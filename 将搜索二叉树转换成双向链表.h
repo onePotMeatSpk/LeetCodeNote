@@ -1,5 +1,4 @@
 #pragma once
-#include<iostream>
 #include"二叉树.h"
 
 //其实就是线索化二叉树

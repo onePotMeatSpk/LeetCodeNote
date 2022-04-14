@@ -1,5 +1,4 @@
 #pragma once
-#include<iostream>
 #include"µ•œÚ¡¥±Ì.h"
 using namespace std;
 

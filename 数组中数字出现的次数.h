@@ -1,14 +1,12 @@
 #pragma once
+#include<vector>
+using namespace std;
 /*
 * 数组中数字出现的次数有两种情况
 * 第一种：数组中仅有1个只出现1次的数字，其他数字均出现2次
 * 第二种：数组中有2个只出现1次的数字，其他数字均出现2次
 * 第三种：数组中仅有1个只出现1次的数字，其他数字均出现3次
 */
-#include<iostream>
-#include<vector>
-using namespace std;
-
 
 
 //第二种：数组中有2个只出现1次的数字，其他数字均出现2次

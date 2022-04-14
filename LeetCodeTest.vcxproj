@@ -140,13 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="剪绳子2.cpp" />
-    <ClCompile Include="源.cpp" />
+    <ClCompile Include="simpletest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="0至n-1中缺失的数字.h" />
     <ClInclude Include="includeall.h" />
     <ClInclude Include="n个筛子的点数.h" />
     <ClInclude Include="O(1)删除链表内某节点.h" />
+    <ClInclude Include="三数之和.h" />
     <ClInclude Include="不用加减乘除做加法.h" />
     <ClInclude Include="两两交换链表中的节点.h" />
     <ClInclude Include="两个链表的第一个公共节点.h" />
@@ -185,7 +186,6 @@
     <ClInclude Include="字典树前缀树（不含删除操作）.h" />
     <ClInclude Include="将单向链表按某值划分为左边小，中间相等，右边大的形式.h" />
     <ClInclude Include="将搜索二叉树转换成双向链表.h" />
-    <ClInclude Include="层序打印和Z形打印二叉树.h" />
     <ClInclude Include="左旋转字符串.h" />
     <ClInclude Include="序列化和反序列化二叉树.h" />
     <ClInclude Include="恢复二叉搜索树.h" />

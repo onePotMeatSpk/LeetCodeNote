@@ -1,6 +1,5 @@
 #pragma once
 #include<vector>
-#include<iostream>
 #include<unordered_map>
 #include"¶þ²æÊ÷.h"
 using namespace std;
