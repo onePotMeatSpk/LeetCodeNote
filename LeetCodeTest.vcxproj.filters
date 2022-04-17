@@ -278,5 +278,11 @@
     <ClInclude Include="太平洋大西洋水流问题.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="全排列.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="最短的桥（填海造陆）.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

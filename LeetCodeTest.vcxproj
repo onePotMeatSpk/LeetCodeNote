@@ -162,12 +162,14 @@
     <ClInclude Include="二叉树的直径.h" />
     <ClInclude Include="二叉树路径和.h" />
     <ClInclude Include="二维数组中的查找.h" />
+    <ClInclude Include="全排列.h" />
     <ClInclude Include="删除二叉搜索树中的节点.h" />
     <ClInclude Include="太平洋大西洋水流问题.h" />
     <ClInclude Include="寻找两个正序数组中的中位数.h" />
     <ClInclude Include="岛屿的最大面积.h" />
     <ClInclude Include="搜索旋转排序数组.h" />
     <ClInclude Include="数组中的第K个最大元素.h" />
+    <ClInclude Include="最短的桥（填海造陆）.h" />
     <ClInclude Include="有序数组中的单一元素.h" />
     <ClInclude Include="根据字符出现频率排序.h" />
     <ClInclude Include="省份数量%28朋友圈%29.h" />
