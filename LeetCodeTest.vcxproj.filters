@@ -284,5 +284,8 @@
     <ClInclude Include="最短的桥（填海造陆）.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="单词接龙.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
