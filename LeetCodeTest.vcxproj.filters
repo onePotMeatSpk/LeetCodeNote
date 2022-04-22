@@ -287,5 +287,20 @@
     <ClInclude Include="单词接龙.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="全排列含重复元素.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="组合.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="组合总和含重复元素.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="最小高度树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="等差数列数量.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
