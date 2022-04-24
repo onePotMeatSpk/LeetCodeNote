@@ -143,6 +143,7 @@
     <ClCompile Include="simpletest.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="01矩阵.h" />
     <ClInclude Include="0至n-1中缺失的数字.h" />
     <ClInclude Include="includeall.h" />
     <ClInclude Include="n个筛子的点数.h" />
@@ -177,6 +178,7 @@
     <ClInclude Include="有序数组中的单一元素.h" />
     <ClInclude Include="根据字符出现频率排序.h" />
     <ClInclude Include="省份数量%28朋友圈%29.h" />
+    <ClInclude Include="矩阵最小路径和.h" />
     <ClInclude Include="等差数列数量.h" />
     <ClInclude Include="组合.h" />
     <ClInclude Include="组合总和含重复元素.h" />
