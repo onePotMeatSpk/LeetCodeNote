@@ -311,5 +311,14 @@
     <ClInclude Include="01矩阵.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="最大正方形.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="完全平方数.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="数字字符串解码方法总数.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
