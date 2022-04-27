@@ -320,5 +320,8 @@
     <ClInclude Include="数字字符串解码方法总数.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="单词拆分.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
