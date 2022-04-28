@@ -326,5 +326,8 @@
     <ClInclude Include="最长递增子序列.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="最长公共子序列.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
