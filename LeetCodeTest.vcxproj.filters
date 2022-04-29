@@ -329,5 +329,11 @@
     <ClInclude Include="最长公共子序列.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="分割等和子集.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="字符串相加.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

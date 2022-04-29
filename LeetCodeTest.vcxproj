@@ -165,11 +165,13 @@
     <ClInclude Include="二维数组中的查找.h" />
     <ClInclude Include="全排列.h" />
     <ClInclude Include="全排列含重复元素.h" />
+    <ClInclude Include="分割等和子集.h" />
     <ClInclude Include="删除二叉搜索树中的节点.h" />
     <ClInclude Include="单词拆分.h" />
     <ClInclude Include="单词接龙.h" />
     <ClInclude Include="复杂链表的复制.h" />
     <ClInclude Include="太平洋大西洋水流问题.h" />
+    <ClInclude Include="字符串相加.h" />
     <ClInclude Include="完全平方数.h" />
     <ClInclude Include="寻找两个正序数组中的中位数.h" />
     <ClInclude Include="岛屿的最大面积.h" />
