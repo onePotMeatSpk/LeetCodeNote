@@ -157,11 +157,13 @@
     <ClInclude Include="二叉搜索树的最小绝对差.h" />
     <ClInclude Include="二叉搜索树迭代器.h" />
     <ClInclude Include="二叉树.h" />
+    <ClInclude Include="二叉树最大路径和.h" />
     <ClInclude Include="二叉树最左下角的值.h" />
     <ClInclude Include="二叉树深度.h" />
     <ClInclude Include="二叉树的层平均值.h" />
     <ClInclude Include="二叉树的直径.h" />
-    <ClInclude Include="二叉树路径和.h" />
+    <ClInclude Include="二叉树路径总和2_要求根到叶子.h" />
+    <ClInclude Include="二叉树路径总和3_不要求过根节点.h" />
     <ClInclude Include="二维数组中的查找.h" />
     <ClInclude Include="全排列.h" />
     <ClInclude Include="全排列含重复元素.h" />
@@ -169,6 +171,7 @@
     <ClInclude Include="删除二叉搜索树中的节点.h" />
     <ClInclude Include="单词拆分.h" />
     <ClInclude Include="单词接龙.h" />
+    <ClInclude Include="只有两个按键的键盘.h" />
     <ClInclude Include="复杂链表的复制.h" />
     <ClInclude Include="太平洋大西洋水流问题.h" />
     <ClInclude Include="字符串相加.h" />
@@ -185,11 +188,13 @@
     <ClInclude Include="最长递增子序列.h" />
     <ClInclude Include="有序数组中的单一元素.h" />
     <ClInclude Include="根据字符出现频率排序.h" />
+    <ClInclude Include="正则表达式匹配.h" />
     <ClInclude Include="省份数量%28朋友圈%29.h" />
     <ClInclude Include="矩阵最小路径和.h" />
     <ClInclude Include="等差数列数量.h" />
     <ClInclude Include="组合.h" />
     <ClInclude Include="组合总和含重复元素.h" />
+    <ClInclude Include="编辑距离%28两单词转换最少操作数%29.h" />
     <ClInclude Include="递增顺序搜索树.h" />
     <ClInclude Include="递增链表递增数组转化为二叉搜索树.h" />
     <ClInclude Include="修剪二叉搜索树.h" />
@@ -247,6 +252,7 @@
     <ClInclude Include="部分反转链表.h" />
     <ClInclude Include="链表中的两数相加.h" />
     <ClInclude Include="队列的最大值.h" />
+    <ClInclude Include="零钱兑换.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -206,7 +206,7 @@
     <ClInclude Include="是否对称二叉树.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="二叉树路径和.h">
+    <ClInclude Include="二叉树路径总和3_不要求过根节点.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="删点成林.h">
@@ -333,6 +333,24 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="字符串相加.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="二叉树路径总和2_要求根到叶子.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="二叉树最大路径和.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="零钱兑换.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="只有两个按键的键盘.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="编辑距离%28两单词转换最少操作数%29.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="正则表达式匹配.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
