@@ -154,6 +154,11 @@
     <ClInclude Include="两个链表的第一个公共节点.h" />
     <ClInclude Include="两二叉树节点的最低祖先.h" />
     <ClInclude Include="两数之和 IV - 输入 BST.h" />
+    <ClInclude Include="买卖股票的最佳时机III_限制买卖2次.h" />
+    <ClInclude Include="买卖股票的最佳时机II_不限买卖次数.h" />
+    <ClInclude Include="买卖股票的最佳时机VI_不限买卖次数_含手续费.h" />
+    <ClInclude Include="买卖股票的最佳时机IV_限制买卖k次.h" />
+    <ClInclude Include="买卖股票的最佳时机V_冷静期.h" />
     <ClInclude Include="二叉搜索树的最小绝对差.h" />
     <ClInclude Include="二叉搜索树迭代器.h" />
     <ClInclude Include="二叉树.h" />
@@ -195,6 +200,7 @@
     <ClInclude Include="组合.h" />
     <ClInclude Include="组合总和含重复元素.h" />
     <ClInclude Include="编辑距离%28两单词转换最少操作数%29.h" />
+    <ClInclude Include="买卖股票的最佳时机I_限制买卖1次.h" />
     <ClInclude Include="递增顺序搜索树.h" />
     <ClInclude Include="递增链表递增数组转化为二叉搜索树.h" />
     <ClInclude Include="修剪二叉搜索树.h" />
@@ -246,7 +252,6 @@
     <ClInclude Include="矩阵中最大的矩形.h" />
     <ClInclude Include="矩阵中的路径.h" />
     <ClInclude Include="翻转单词顺序.h" />
-    <ClInclude Include="股票的最大利润.h" />
     <ClInclude Include="较为直观地打印二叉树.h" />
     <ClInclude Include="通过前序和中序数组生成后序数组.h" />
     <ClInclude Include="部分反转链表.h" />

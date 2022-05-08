@@ -77,9 +77,6 @@
     <ClInclude Include="圆圈中最后剩下的数字.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="股票的最大利润.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="求1+2+…+n.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -351,6 +348,24 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="正则表达式匹配.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="买卖股票的最佳时机I_限制买卖1次.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="买卖股票的最佳时机II_不限买卖次数.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="买卖股票的最佳时机III_限制买卖2次.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="买卖股票的最佳时机IV_限制买卖k次.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="买卖股票的最佳时机V_冷静期.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="买卖股票的最佳时机VI_不限买卖次数_含手续费.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
