@@ -368,5 +368,17 @@
     <ClInclude Include="买卖股票的最佳时机VI_不限买卖次数_含手续费.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="爬楼梯.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="爬楼梯_使用最小花费.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="不同路径.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="不同路径II_有障碍物.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

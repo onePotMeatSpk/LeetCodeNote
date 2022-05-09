@@ -149,6 +149,8 @@
     <ClInclude Include="n个筛子的点数.h" />
     <ClInclude Include="O(1)删除链表内某节点.h" />
     <ClInclude Include="三数之和.h" />
+    <ClInclude Include="不同路径.h" />
+    <ClInclude Include="不同路径II_有障碍物.h" />
     <ClInclude Include="不用加减乘除做加法.h" />
     <ClInclude Include="两两交换链表中的节点.h" />
     <ClInclude Include="两个链表的第一个公共节点.h" />
@@ -194,6 +196,8 @@
     <ClInclude Include="有序数组中的单一元素.h" />
     <ClInclude Include="根据字符出现频率排序.h" />
     <ClInclude Include="正则表达式匹配.h" />
+    <ClInclude Include="爬楼梯.h" />
+    <ClInclude Include="爬楼梯_使用最小花费.h" />
     <ClInclude Include="省份数量%28朋友圈%29.h" />
     <ClInclude Include="矩阵最小路径和.h" />
     <ClInclude Include="等差数列数量.h" />
