@@ -380,5 +380,29 @@
     <ClInclude Include="不同路径II_有障碍物.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="复原IP地址.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="一和零.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LRU缓存.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="零钱兑换II_凑成总金额的组合数.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="组合总和_可有重复元素_返回vector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="组合总和II_无重复元素_返回vector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="组合总和III_只使用1至9_返回vector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="组合总和IV_不同排列的总数量_返回int.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

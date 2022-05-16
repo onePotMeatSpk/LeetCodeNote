@@ -14,6 +14,5 @@
 #include<algorithm>
 #include<time.h>
 #include<math.h>
-#include"单向链表.h"
-#include"二叉树.h"
+#include<windows.h>
 using namespace std;

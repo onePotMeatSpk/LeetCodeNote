@@ -146,8 +146,10 @@
     <ClInclude Include="01矩阵.h" />
     <ClInclude Include="0至n-1中缺失的数字.h" />
     <ClInclude Include="includeall.h" />
+    <ClInclude Include="LRU缓存.h" />
     <ClInclude Include="n个筛子的点数.h" />
     <ClInclude Include="O(1)删除链表内某节点.h" />
+    <ClInclude Include="一和零.h" />
     <ClInclude Include="三数之和.h" />
     <ClInclude Include="不同路径.h" />
     <ClInclude Include="不同路径II_有障碍物.h" />
@@ -179,6 +181,7 @@
     <ClInclude Include="单词拆分.h" />
     <ClInclude Include="单词接龙.h" />
     <ClInclude Include="只有两个按键的键盘.h" />
+    <ClInclude Include="复原IP地址.h" />
     <ClInclude Include="复杂链表的复制.h" />
     <ClInclude Include="太平洋大西洋水流问题.h" />
     <ClInclude Include="字符串相加.h" />
@@ -202,6 +205,10 @@
     <ClInclude Include="矩阵最小路径和.h" />
     <ClInclude Include="等差数列数量.h" />
     <ClInclude Include="组合.h" />
+    <ClInclude Include="组合总和III_只使用1至9_返回vector.h" />
+    <ClInclude Include="组合总和IV_不同排列的总数量_返回int.h" />
+    <ClInclude Include="组合总和_可有重复元素_返回vector.h" />
+    <ClInclude Include="组合总和II_无重复元素_返回vector.h" />
     <ClInclude Include="组合总和含重复元素.h" />
     <ClInclude Include="编辑距离%28两单词转换最少操作数%29.h" />
     <ClInclude Include="买卖股票的最佳时机I_限制买卖1次.h" />
@@ -262,6 +269,7 @@
     <ClInclude Include="链表中的两数相加.h" />
     <ClInclude Include="队列的最大值.h" />
     <ClInclude Include="零钱兑换.h" />
+    <ClInclude Include="零钱兑换II_凑成总金额的组合数.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
