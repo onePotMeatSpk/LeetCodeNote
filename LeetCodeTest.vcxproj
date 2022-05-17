@@ -188,6 +188,9 @@
     <ClInclude Include="完全平方数.h" />
     <ClInclude Include="寻找两个正序数组中的中位数.h" />
     <ClInclude Include="岛屿的最大面积.h" />
+    <ClInclude Include="打家劫舍.h" />
+    <ClInclude Include="打家劫舍II_环形小区.h" />
+    <ClInclude Include="打家劫舍III_二叉树小区.h" />
     <ClInclude Include="搜索旋转排序数组.h" />
     <ClInclude Include="数字字符串解码方法总数.h" />
     <ClInclude Include="数组中的第K个最大元素.h" />

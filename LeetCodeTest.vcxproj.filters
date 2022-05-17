@@ -404,5 +404,14 @@
     <ClInclude Include="组合总和IV_不同排列的总数量_返回int.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="打家劫舍.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="打家劫舍II_环形小区.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="打家劫舍III_二叉树小区.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
