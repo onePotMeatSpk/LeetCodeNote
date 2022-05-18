@@ -1,6 +1,7 @@
 ﻿#pragma once
 #include<vector>
 using namespace std;
+//力扣300
 //题目：最长递增子序列
 //题目描述：给你一个整数数组 nums ，找到其中最长严格递增子序列的长度。
 //			子序列 是由数组派生而来的序列，删除（或不删除）数组中的元素而不改变其余元素的顺序。
@@ -11,18 +12,21 @@ using namespace std;
 //		其时间复杂度为O(N^2)。
 //dp,O(N^2),O(N)
 int lengthOfLIS(vector<int>& nums) {
-	int max_length = 0, n = nums.size();
-	if (n <= 1) return n;
-	vector<int> dp(n, 1);
-	for (int i = 0; i < n; ++i) {
-		for (int j = 0; j < i; ++j) {
-			if (nums[i] > nums[j]) {
-				dp[i] = max(dp[i], dp[j] + 1);
-			}
-		}
-		max_length = max(max_length, dp[i]);
-	}
-	return max_length;
+    int len = nums.size();
+    vector<int> dp(len, 1);
+
+    int maxLen = 1;
+    for (int i = 1; i < len; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            if (nums[i] > nums[i - j] && dp[i - j] + 1 > dp[i])
+                dp[i] = dp[i - j] + 1;
+        }
+        maxLen = maxLen > dp[i] ? maxLen : dp[i];
+    }
+
+    return maxLen;
 }
 
 
@@ -34,6 +38,7 @@ int lengthOfLIS(vector<int>& nums) {
 //之后构成递增序列的可能性增大。以这种方式维护的dp 数组永远是递增的，因此可以用二分查
 //找加速搜索。
 
+//二分版本1：lower_bound()函数
 int lengthOfLIS(vector<int>& nums) {
 	int n = nums.size();
 	if (n <= 1) return n;
@@ -44,9 +49,56 @@ int lengthOfLIS(vector<int>& nums) {
 			dp.push_back(nums[i]);
 		}
 		else {
-			auto itr = lower_bound(dp.begin(), dp.end(), nums[i]);
+			auto itr = lower_bound(dp.begin(), dp.end(), nums[i]);//lower_bound() 函数用于在指定区域内查找不小于目标值的第一个元素，返回其迭代器
 			*itr = nums[i];
 		}
 	}
 	return dp.size();
+}
+
+
+//二分版本2：自己实现二分法
+int lengthOfLIS(vector<int>& nums) {
+    int len = nums.size();
+    vector<int> dp;
+    dp.push_back(nums[0]);
+
+    for (int i = 1; i < len; i++)
+    {
+        int now = nums[i];
+        if (now > dp.back())
+            dp.push_back(now);
+        else
+        {
+            int l = 0, r = dp.size() - 1, mid;
+            while (l < r)
+            {
+                mid = l + (r - l) / 2;
+                if (dp[mid] == now)
+                    break;
+                if (dp[mid] < now)
+                {
+                    l = mid + 1;
+                    continue;
+                }
+                if (dp[mid] > now)
+                {
+                    if (mid == 0)
+                    {
+                        dp[mid] = now;
+                        break;
+                    }
+                    if (dp[mid - 1] < now)
+                    {
+                        dp[mid] = now;
+                        break;
+                    }
+                    r = mid - 1;
+                }
+            }
+            if (l == r)  dp[l] = now;
+        }
+
+    }
+    return dp.size();
 }

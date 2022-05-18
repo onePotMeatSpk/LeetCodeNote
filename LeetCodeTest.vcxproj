@@ -198,7 +198,9 @@
     <ClInclude Include="最小高度树.h" />
     <ClInclude Include="最短的桥（填海造陆）.h" />
     <ClInclude Include="最长公共子序列.h" />
+    <ClInclude Include="最长连续递增序列.h" />
     <ClInclude Include="最长递增子序列.h" />
+    <ClInclude Include="最长重复子数组.h" />
     <ClInclude Include="有序数组中的单一元素.h" />
     <ClInclude Include="根据字符出现频率排序.h" />
     <ClInclude Include="正则表达式匹配.h" />

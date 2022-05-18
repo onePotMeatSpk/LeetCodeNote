@@ -413,5 +413,11 @@
     <ClInclude Include="打家劫舍III_二叉树小区.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="最长连续递增序列.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="最长重复子数组.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
