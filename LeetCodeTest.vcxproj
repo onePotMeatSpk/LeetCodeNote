@@ -154,6 +154,7 @@
     <ClInclude Include="不同路径.h" />
     <ClInclude Include="不同路径II_有障碍物.h" />
     <ClInclude Include="不用加减乘除做加法.h" />
+    <ClInclude Include="不相交的线.h" />
     <ClInclude Include="两两交换链表中的节点.h" />
     <ClInclude Include="两个链表的第一个公共节点.h" />
     <ClInclude Include="两二叉树节点的最低祖先.h" />

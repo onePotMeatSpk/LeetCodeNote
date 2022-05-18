@@ -419,5 +419,8 @@
     <ClInclude Include="最长重复子数组.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="不相交的线.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
