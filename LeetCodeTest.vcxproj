@@ -151,11 +151,13 @@
     <ClInclude Include="O(1)删除链表内某节点.h" />
     <ClInclude Include="一和零.h" />
     <ClInclude Include="三数之和.h" />
+    <ClInclude Include="不同的子序列.h" />
     <ClInclude Include="不同路径.h" />
     <ClInclude Include="不同路径II_有障碍物.h" />
     <ClInclude Include="不用加减乘除做加法.h" />
     <ClInclude Include="不相交的线.h" />
     <ClInclude Include="两两交换链表中的节点.h" />
+    <ClInclude Include="两个字符串的删除操作.h" />
     <ClInclude Include="两个链表的第一个公共节点.h" />
     <ClInclude Include="两二叉树节点的最低祖先.h" />
     <ClInclude Include="两数之和 IV - 输入 BST.h" />
@@ -179,6 +181,7 @@
     <ClInclude Include="全排列含重复元素.h" />
     <ClInclude Include="分割等和子集.h" />
     <ClInclude Include="删除二叉搜索树中的节点.h" />
+    <ClInclude Include="判断子序列.h" />
     <ClInclude Include="单词拆分.h" />
     <ClInclude Include="单词接龙.h" />
     <ClInclude Include="只有两个按键的键盘.h" />
@@ -195,6 +198,7 @@
     <ClInclude Include="搜索旋转排序数组.h" />
     <ClInclude Include="数字字符串解码方法总数.h" />
     <ClInclude Include="数组中的第K个最大元素.h" />
+    <ClInclude Include="最大子数组和.h" />
     <ClInclude Include="最大正方形.h" />
     <ClInclude Include="最小高度树.h" />
     <ClInclude Include="最短的桥（填海造陆）.h" />
@@ -216,7 +220,7 @@
     <ClInclude Include="组合总和_可有重复元素_返回vector.h" />
     <ClInclude Include="组合总和II_无重复元素_返回vector.h" />
     <ClInclude Include="组合总和含重复元素.h" />
-    <ClInclude Include="编辑距离%28两单词转换最少操作数%29.h" />
+    <ClInclude Include="编辑距离.h" />
     <ClInclude Include="买卖股票的最佳时机I_限制买卖1次.h" />
     <ClInclude Include="递增顺序搜索树.h" />
     <ClInclude Include="递增链表递增数组转化为二叉搜索树.h" />
