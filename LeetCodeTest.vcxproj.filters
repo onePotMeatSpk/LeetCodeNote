@@ -437,5 +437,11 @@
     <ClInclude Include="回文子串.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="最长回文子串.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="最长回文子序列.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

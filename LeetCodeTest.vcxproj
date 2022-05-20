@@ -204,6 +204,8 @@
     <ClInclude Include="最小高度树.h" />
     <ClInclude Include="最短的桥（填海造陆）.h" />
     <ClInclude Include="最长公共子序列.h" />
+    <ClInclude Include="最长回文子串.h" />
+    <ClInclude Include="最长回文子序列.h" />
     <ClInclude Include="最长连续递增序列.h" />
     <ClInclude Include="最长递增子序列.h" />
     <ClInclude Include="最长重复子数组.h" />
