@@ -434,5 +434,8 @@
     <ClInclude Include="两个字符串的删除操作.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="回文子串.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
