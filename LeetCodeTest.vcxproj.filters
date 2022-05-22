@@ -443,5 +443,11 @@
     <ClInclude Include="最长回文子序列.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="二叉树的层序遍历.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="二叉树的层序遍历II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

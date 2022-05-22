@@ -173,6 +173,8 @@
     <ClInclude Include="二叉树最左下角的值.h" />
     <ClInclude Include="二叉树深度.h" />
     <ClInclude Include="二叉树的层平均值.h" />
+    <ClInclude Include="二叉树的层序遍历.h" />
+    <ClInclude Include="二叉树的层序遍历II.h" />
     <ClInclude Include="二叉树的直径.h" />
     <ClInclude Include="二叉树路径总和2_要求根到叶子.h" />
     <ClInclude Include="二叉树路径总和3_不要求过根节点.h" />
