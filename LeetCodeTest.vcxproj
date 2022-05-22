@@ -148,6 +148,7 @@
     <ClInclude Include="includeall.h" />
     <ClInclude Include="LRU缓存.h" />
     <ClInclude Include="n个筛子的点数.h" />
+    <ClInclude Include="N叉树的层序遍历.h" />
     <ClInclude Include="O(1)删除链表内某节点.h" />
     <ClInclude Include="一和零.h" />
     <ClInclude Include="三数之和.h" />
