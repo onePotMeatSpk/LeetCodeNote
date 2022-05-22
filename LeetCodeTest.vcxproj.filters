@@ -449,5 +449,8 @@
     <ClInclude Include="二叉树的层序遍历II.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="二叉树的右视图.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -172,6 +172,7 @@
     <ClInclude Include="二叉树最大路径和.h" />
     <ClInclude Include="二叉树最左下角的值.h" />
     <ClInclude Include="二叉树深度.h" />
+    <ClInclude Include="二叉树的右视图.h" />
     <ClInclude Include="二叉树的层平均值.h" />
     <ClInclude Include="二叉树的层序遍历.h" />
     <ClInclude Include="二叉树的层序遍历II.h" />
