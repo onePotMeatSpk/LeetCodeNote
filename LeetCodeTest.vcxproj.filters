@@ -455,5 +455,8 @@
     <ClInclude Include="N叉树的层序遍历.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="在每个树行中找最大值.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
