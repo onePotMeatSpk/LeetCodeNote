@@ -2,6 +2,7 @@
 #include<vector>
 #include<queue>
 #include<stack>
+#include<iostream>
 using namespace std;
 
 struct TreeNode
@@ -80,99 +81,116 @@ TreeNode* createTree(vector<int> numsOfTree)
 }
 
 /*打印树：递归中序遍历*/
-void printTreeInRecursion(TreeNode* root)
+void printTreeInRec(TreeNode* root)
 {
 	if (!root) return;
-	printTreeInRecursion(root->left);
+	printTreeInRec(root->left);
 	cout << root->val << endl;
-	printTreeInRecursion(root->right);
+	printTreeInRec(root->right);
 }
 
 /*打印树：迭代中序遍历*/
-void printTreeInIteration(TreeNode* root)
+void printTreeInIte(TreeNode* root)
 {
-	if (!root)	return;
-
+	if (!root)    return;
 	stack<TreeNode*> s;
 	s.push(root);
-	TreeNode* cur = root->left;
-	while (s.size() || cur)
+
+	while (!s.empty())
 	{
-		if(cur)
+		TreeNode* temp = s.top();
+		if (temp)
 		{
-			s.push(cur);
-			cur = cur->left;
+			s.pop();
+			if (temp->right)  s.push(temp->right);
+			s.push(temp);
+			s.push(NULL);
+			if (temp->left)   s.push(temp->left);
+
 		}
 		else
 		{
-			cout << s.top()->val << endl;
-			cur = s.top()->right;
 			s.pop();
+			temp = s.top();
+			s.pop();
+			cout << temp->val << endl;
 		}
 	}
 }
 
 
 /*打印树：递归前序遍历*/
-void printTreePreRecursion(TreeNode* root)
+void printTreePreRec(TreeNode* root)
 {
 	if (!root) return;
 	cout << root->val << endl;
-	printTreePreRecursion(root->left);
-	printTreePreRecursion(root->right);
+	printTreePreRec(root->left);
+	printTreePreRec(root->right);
 }
 
 /*打印树：迭代前序遍历*/
-void printTreePreIteration(TreeNode* root)
+void printTreePreIte(TreeNode* root)
 {
-	if (!root)	return;
-	TreeNode* temp = NULL;
+	if (!root)    return;
 	stack<TreeNode*> s;
 	s.push(root);
 
 	while (!s.empty())
 	{
-		cout << s.top()->val << endl;
-		temp = s.top();
-		s.pop();
-		//一定要先入右，后入左，这样弹栈并且打印的时候才能是先左后右
-		if (temp->right)	s.push(temp->right);
-		if (temp->left)	s.push(temp->left);
+		TreeNode* temp = s.top();
+		if (temp)
+		{
+			s.pop();
+			if (temp->right)  s.push(temp->right);
+			if (temp->left)   s.push(temp->left);
+			s.push(temp);
+			s.push(NULL);
+		}
+		else
+		{
+			s.pop();
+			temp = s.top();
+			s.pop();
+			cout << temp->val << endl;
+		}
 	}
 }
 
 /*打印树：递归后序遍历*/
-void printTreePosRecursion(TreeNode* root)
+void printTreePosRec(TreeNode* root)
 {
 	if (!root) return;
-	printTreePosRecursion(root->left);
-	printTreePosRecursion(root->right);
+	printTreePosRec(root->left);
+	printTreePosRec(root->right);
 	cout << root->val << endl;
 }
 
 /*打印树：迭代后序遍历*/
-void printTreePosIteration(TreeNode* root)
+void printTreePosIte(TreeNode* root)
 {
-	if (!root)	return;
-	stack<TreeNode*>s;
-	stack<TreeNode*>sPutOut;
-	TreeNode* temp = NULL;
+	if (!root)    return;
+	stack<TreeNode*> s;
 	s.push(root);
 
 	while (!s.empty())
 	{
-		temp = s.top();
-		s.pop();
-		sPutOut.push(temp);
+		TreeNode* temp = s.top();
+		if (temp)
+		{
+			s.pop();
+			s.push(temp);
+			s.push(NULL);
+			if (temp->right)  s.push(temp->right);
+			if (temp->left)   s.push(temp->left);
 
-		if (temp->left)	s.push(temp->left);
-		if (temp->right)	s.push(temp->right);
-	}
-
-	while (!sPutOut.empty())
-	{
-		cout << sPutOut.top()->val << endl;
-		sPutOut.pop();
+		}
+		else
+		{
+			s.pop();
+			temp = s.top();
+			s.pop();
+			cout << temp->val << endl;
+		}
 	}
 }
 
