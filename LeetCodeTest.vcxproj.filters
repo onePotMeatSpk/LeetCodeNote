@@ -458,5 +458,8 @@
     <ClInclude Include="在每个树行中找最大值.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="填充每个节点的下一个右侧节点指针.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -7,6 +7,7 @@ using namespace std;
 //题目：在每个树行中找最大值
 //题目描述：给定一棵二叉树的根节点 root ，请找出该二叉树中每一层的最大值。
 
+//层序遍历
 vector<int> largestValues(TreeNode* root) {
     vector<int> v;
     if (!root)   return v;

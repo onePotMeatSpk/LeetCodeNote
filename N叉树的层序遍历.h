@@ -9,7 +9,7 @@ using namespace std;
 
 //层序遍历，没啥讲的
 
-//N叉树结构
+//N叉树定义
 struct Node {
 public:
     int val;
