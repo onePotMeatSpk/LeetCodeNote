@@ -44,7 +44,7 @@
     <ClInclude Include="是否平衡二叉树.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="二叉树深度.h">
+    <ClInclude Include="二叉树的最大深度.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="数组中数字出现的次数.h">
@@ -200,7 +200,7 @@
     <ClInclude Include="二叉树的直径.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="是否对称二叉树.h">
+    <ClInclude Include="对称二叉树.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="二叉树路径总和3_不要求过根节点.h">
@@ -465,6 +465,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="翻转二叉树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="N叉树的最大深度.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="二叉树的最小深度.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="完全二叉树的节点个数.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

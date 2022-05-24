@@ -149,6 +149,7 @@
     <ClInclude Include="LRU缓存.h" />
     <ClInclude Include="n个筛子的点数.h" />
     <ClInclude Include="N叉树的层序遍历.h" />
+    <ClInclude Include="N叉树的最大深度.h" />
     <ClInclude Include="O(1)删除链表内某节点.h" />
     <ClInclude Include="一和零.h" />
     <ClInclude Include="三数之和.h" />
@@ -172,11 +173,12 @@
     <ClInclude Include="二叉树.h" />
     <ClInclude Include="二叉树最大路径和.h" />
     <ClInclude Include="二叉树最左下角的值.h" />
-    <ClInclude Include="二叉树深度.h" />
+    <ClInclude Include="二叉树的最大深度.h" />
     <ClInclude Include="二叉树的右视图.h" />
     <ClInclude Include="二叉树的层平均值.h" />
     <ClInclude Include="二叉树的层序遍历.h" />
     <ClInclude Include="二叉树的层序遍历II.h" />
+    <ClInclude Include="二叉树的最小深度.h" />
     <ClInclude Include="二叉树的直径.h" />
     <ClInclude Include="二叉树路径总和2_要求根到叶子.h" />
     <ClInclude Include="二叉树路径总和3_不要求过根节点.h" />
@@ -197,6 +199,7 @@
     <ClInclude Include="复杂链表的复制.h" />
     <ClInclude Include="太平洋大西洋水流问题.h" />
     <ClInclude Include="字符串相加.h" />
+    <ClInclude Include="完全二叉树的节点个数.h" />
     <ClInclude Include="完全平方数.h" />
     <ClInclude Include="寻找两个正序数组中的中位数.h" />
     <ClInclude Include="岛屿的最大面积.h" />
@@ -263,7 +266,7 @@
     <ClInclude Include="数组中数字出现的次数.h" />
     <ClInclude Include="数组中重复的数字.h" />
     <ClInclude Include="旋转排序数组中的最小值.h" />
-    <ClInclude Include="是否对称二叉树.h" />
+    <ClInclude Include="对称二叉树.h" />
     <ClInclude Include="是否平衡二叉树.h" />
     <ClInclude Include="单向链表.h" />
     <ClInclude Include="左右两边子数组的和相等.h" />
