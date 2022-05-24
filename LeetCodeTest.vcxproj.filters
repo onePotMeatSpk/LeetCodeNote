@@ -41,7 +41,7 @@
     <ClInclude Include="二叉树.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="是否平衡二叉树.h">
+    <ClInclude Include="平衡二叉树.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="二叉树的最大深度.h">
