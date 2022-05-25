@@ -173,6 +173,7 @@
     <ClInclude Include="二叉树.h" />
     <ClInclude Include="二叉树最大路径和.h" />
     <ClInclude Include="二叉树最左下角的值.h" />
+    <ClInclude Include="二叉树的所有路径.h" />
     <ClInclude Include="二叉树的最大深度.h" />
     <ClInclude Include="二叉树的右视图.h" />
     <ClInclude Include="二叉树的层平均值.h" />
@@ -224,6 +225,7 @@
     <ClInclude Include="正则表达式匹配.h" />
     <ClInclude Include="爬楼梯.h" />
     <ClInclude Include="爬楼梯_使用最小花费.h" />
+    <ClInclude Include="相同的树.h" />
     <ClInclude Include="省份数量%28朋友圈%29.h" />
     <ClInclude Include="矩阵最小路径和.h" />
     <ClInclude Include="等差数列数量.h" />
@@ -257,7 +259,7 @@
     <ClInclude Include="左旋转字符串.h" />
     <ClInclude Include="序列化和反序列化二叉树.h" />
     <ClInclude Include="恢复二叉搜索树.h" />
-    <ClInclude Include="所有左叶子之和.h" />
+    <ClInclude Include="左叶子之和.h" />
     <ClInclude Include="扑克牌中的顺子.h" />
     <ClInclude Include="打印从1到最大n位数.h" />
     <ClInclude Include="把二叉搜索树转换为累加树.h" />

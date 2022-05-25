@@ -224,7 +224,7 @@
     <ClInclude Include="字典树前缀树（不含删除操作）.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="所有左叶子之和.h">
+    <ClInclude Include="左叶子之和.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="二叉树最左下角的值.h">
@@ -474,6 +474,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="完全二叉树的节点个数.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="二叉树的所有路径.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="相同的树.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
