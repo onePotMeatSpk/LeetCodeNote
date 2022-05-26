@@ -1,9 +1,11 @@
 #pragma once
 #include"二叉树.h"
-//题目：二叉树最左下角的值
+//力扣513
+//题目：找树左下角的值
 //题目描述：给定一个二叉树的 根节点 root，请找出该二叉树的最底层的最左边的节点的值。假设二叉树中至少有一个节点。
 
 
+//方法1：先序递归（迭代也可以，不想写代码了）
 //辅助函数（基于先序遍历）
 //maxDepth记录当前遍历到的最深节点的深度
 //valTemp记录maxDepth对应节点的值
@@ -32,4 +34,30 @@ int findBottomLeftValue(TreeNode* root)
     int valTemp = 0;
     findBottomLeftValueCore(maxDepth, valTemp, root, 0);
     return valTemp;
+}
+
+//方法2：层序遍历
+int findBottomLeftValue(TreeNode* root) {
+    if (!root)   return 0;
+
+    queue<TreeNode*> q;
+    q.push(root);
+
+    TreeNode* ret = NULL;
+
+    while (!q.empty())
+    {
+        int count = q.size();
+        ret = q.front();
+        while (count--)
+        {
+            TreeNode* temp = q.front();
+            q.pop();
+
+            if (temp->left)  q.push(temp->left);
+            if (temp->right) q.push(temp->right);
+        }
+    }
+
+    return ret->val;
 }

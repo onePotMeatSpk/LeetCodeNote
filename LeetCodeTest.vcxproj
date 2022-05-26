@@ -181,8 +181,8 @@
     <ClInclude Include="二叉树的层序遍历II.h" />
     <ClInclude Include="二叉树的最小深度.h" />
     <ClInclude Include="二叉树的直径.h" />
-    <ClInclude Include="二叉树路径总和2_要求根到叶子.h" />
-    <ClInclude Include="二叉树路径总和3_不要求过根节点.h" />
+    <ClInclude Include="二叉树路径总和II_要求根到叶子.h" />
+    <ClInclude Include="二叉树路径总和III_不要求过根节点.h" />
     <ClInclude Include="二维数组中的查找.h" />
     <ClInclude Include="全排列.h" />
     <ClInclude Include="全排列含重复元素.h" />
@@ -238,6 +238,7 @@
     <ClInclude Include="编辑距离.h" />
     <ClInclude Include="买卖股票的最佳时机I_限制买卖1次.h" />
     <ClInclude Include="翻转二叉树.h" />
+    <ClInclude Include="路径总和_判断是否存在路径.h" />
     <ClInclude Include="递增顺序搜索树.h" />
     <ClInclude Include="递增链表递增数组转化为二叉搜索树.h" />
     <ClInclude Include="修剪二叉搜索树.h" />

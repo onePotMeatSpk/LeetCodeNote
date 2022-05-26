@@ -203,7 +203,7 @@
     <ClInclude Include="对称二叉树.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="二叉树路径总和3_不要求过根节点.h">
+    <ClInclude Include="二叉树路径总和III_不要求过根节点.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="删点成林.h">
@@ -332,7 +332,7 @@
     <ClInclude Include="字符串相加.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="二叉树路径总和2_要求根到叶子.h">
+    <ClInclude Include="二叉树路径总和II_要求根到叶子.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="二叉树最大路径和.h">
@@ -480,6 +480,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="相同的树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="路径总和_判断是否存在路径.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
