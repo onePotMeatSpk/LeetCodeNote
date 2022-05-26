@@ -485,5 +485,8 @@
     <ClInclude Include="路径总和_判断是否存在路径.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="从中序与后序遍历序列构造二叉树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
