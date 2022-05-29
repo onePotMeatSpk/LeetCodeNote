@@ -161,13 +161,15 @@
     <ClInclude Include="两两交换链表中的节点.h" />
     <ClInclude Include="两个字符串的删除操作.h" />
     <ClInclude Include="两个链表的第一个公共节点.h" />
-    <ClInclude Include="两二叉树节点的最低祖先.h" />
+    <ClInclude Include="二叉搜索树的最近公共祖先.h" />
+    <ClInclude Include="二叉树的最近公共祖先.h" />
     <ClInclude Include="两数之和 IV - 输入 BST.h" />
     <ClInclude Include="买卖股票的最佳时机III_限制买卖2次.h" />
     <ClInclude Include="买卖股票的最佳时机II_不限买卖次数.h" />
     <ClInclude Include="买卖股票的最佳时机VI_不限买卖次数_含手续费.h" />
     <ClInclude Include="买卖股票的最佳时机IV_限制买卖k次.h" />
     <ClInclude Include="买卖股票的最佳时机V_冷静期.h" />
+    <ClInclude Include="二叉搜索树中的众数.h" />
     <ClInclude Include="二叉搜索树的最小绝对差.h" />
     <ClInclude Include="二叉搜索树迭代器.h" />
     <ClInclude Include="二叉树.h" />
