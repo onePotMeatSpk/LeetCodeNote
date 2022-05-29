@@ -167,7 +167,7 @@
     <ClInclude Include="替换空格.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="根据前序数组和中序数组重建二叉树.h">
+    <ClInclude Include="从前序与中序遍历序列构造二叉树.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="旋转排序数组中的最小值.h">
@@ -486,6 +486,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="从中序与后序遍历序列构造二叉树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="最大二叉树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="合并二叉树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="验证二叉搜索树.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

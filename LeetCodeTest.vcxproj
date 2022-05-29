@@ -193,6 +193,7 @@
     <ClInclude Include="单词拆分.h" />
     <ClInclude Include="单词接龙.h" />
     <ClInclude Include="只有两个按键的键盘.h" />
+    <ClInclude Include="合并二叉树.h" />
     <ClInclude Include="回文子串.h" />
     <ClInclude Include="在每个树行中找最大值.h" />
     <ClInclude Include="填充每个节点的下一个右侧节点指针 II.h" />
@@ -211,6 +212,7 @@
     <ClInclude Include="搜索旋转排序数组.h" />
     <ClInclude Include="数字字符串解码方法总数.h" />
     <ClInclude Include="数组中的第K个最大元素.h" />
+    <ClInclude Include="最大二叉树.h" />
     <ClInclude Include="最大子数组和.h" />
     <ClInclude Include="最大正方形.h" />
     <ClInclude Include="最小高度树.h" />
@@ -282,7 +284,7 @@
     <ClInclude Include="机器人的运动范围.h" />
     <ClInclude Include="剪绳子.h" />
     <ClInclude Include="树的子结构.h" />
-    <ClInclude Include="根据前序数组和中序数组重建二叉树.h" />
+    <ClInclude Include="从前序与中序遍历序列构造二叉树.h" />
     <ClInclude Include="根据后序数组重建二叉搜索树.h" />
     <ClInclude Include="求1+2+…+n.h" />
     <ClInclude Include="滑动窗口的最大值.h" />
@@ -298,6 +300,7 @@
     <ClInclude Include="队列的最大值.h" />
     <ClInclude Include="零钱兑换.h" />
     <ClInclude Include="零钱兑换II_凑成总金额的组合数.h" />
+    <ClInclude Include="验证二叉搜索树.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
