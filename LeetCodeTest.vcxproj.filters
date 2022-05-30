@@ -503,5 +503,11 @@
     <ClInclude Include="二叉搜索树的最近公共祖先.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="二叉搜索树中的插入操作.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="将有序数组转换为二叉搜索树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

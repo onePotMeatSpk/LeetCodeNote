@@ -161,6 +161,7 @@
     <ClInclude Include="两两交换链表中的节点.h" />
     <ClInclude Include="两个字符串的删除操作.h" />
     <ClInclude Include="两个链表的第一个公共节点.h" />
+    <ClInclude Include="二叉搜索树中的插入操作.h" />
     <ClInclude Include="二叉搜索树的最近公共祖先.h" />
     <ClInclude Include="二叉树的最近公共祖先.h" />
     <ClInclude Include="两数之和 IV - 输入 BST.h" />
@@ -207,6 +208,7 @@
     <ClInclude Include="完全二叉树的节点个数.h" />
     <ClInclude Include="完全平方数.h" />
     <ClInclude Include="寻找两个正序数组中的中位数.h" />
+    <ClInclude Include="将有序数组转换为二叉搜索树.h" />
     <ClInclude Include="岛屿的最大面积.h" />
     <ClInclude Include="打家劫舍.h" />
     <ClInclude Include="打家劫舍II_环形小区.h" />
