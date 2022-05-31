@@ -509,5 +509,8 @@
     <ClInclude Include="将有序数组转换为二叉搜索树.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="电话号码的字母组合.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -9,31 +9,35 @@ using namespace std;
 //			candidates 中的 同一个 数字可以   无限制重复   被选取 。如果至少一个数字的被选数量不同，则两种组合是不同的。 
 
 //回溯法
-void dfsCombinationSum(const vector<int>& candidates, const int& target, vector<int>& v, vector<vector<int>>& vAll, int sum = 0, int index = 0) {
-	//得到target，或者到达末尾
-	if (sum == target)
-	{
-		vAll.push_back(v);
-		return;
-	}
-	if (index == candidates.size())	return;
+void back(vector<int>& candidates, const int& target, int& sum, vector<int>& v, vector<vector<int>>& ret, int index = 0)
+{
+    if (target == sum)
+    {
+        ret.push_back(v);
+        return;
+    }
+    if (sum > target)    return;
+    if (index == candidates.size() && target < sum)  return;
 
-	//以当前元素的不同个数，分叉，进行dfs
-	int i = 0;
-	for (i = 0; i <= (target - sum) / candidates[index]; i++)//i <= (target - sum) / candidates[index]，防止sum>target
-	{
-		if(i)	v.push_back(candidates[index]);
-		dfsCombinationSum(candidates, target, v, vAll, sum + candidates[index] * i, index + 1);
-	}
-	//恢复现场
-	while (--i)
-		v.pop_back();
+    for (; index < candidates.size(); index++)
+        for (int i = 1; i <= (target - sum) / candidates[index]; i++)
+        {
+            sum += candidates[index] * i;
+            for (int j = 0; j < i; j++)
+                v.push_back(candidates[index]);
 
+            back(candidates, target, sum, v, ret, index + 1);
+
+            for (int j = 0; j < i; j++)
+                v.pop_back();
+            sum -= candidates[index] * i;
+        }
 }
 
 vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-	vector<vector<int>> vAll;
-	vector<int> v;
-	dfsCombinationSum(candidates, target, v, vAll);
-	return vAll;
+    vector<vector<int>> ret;
+    vector<int> v;
+    int sum = 0;
+    back(candidates, target, sum, v, ret, 0);
+    return ret;
 }
