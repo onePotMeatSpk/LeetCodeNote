@@ -22,8 +22,9 @@ void back(vector<int>& candidates, vector<bool>& used, const int& target, vector
     if (sum > target)    return;
     if (index == candidates.size() && sum < target)  return;
 
-    for (; index < candidates.size(); index++)
+    for (; index < candidates.size() && candidates[index] <= target - sum; index++)//candidates[index] <= target - sum是剪枝
     {
+        //去重
         //如果当前元素和前元素相等，并且前元素没有被使用
         //则不可以使用当前元素，否则会导致重复结果
         //参照代码随想录解释，这样会导致同一层上的重复
