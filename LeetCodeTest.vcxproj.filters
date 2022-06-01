@@ -512,5 +512,11 @@
     <ClInclude Include="电话号码的字母组合.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="分割回文串.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="子集.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
