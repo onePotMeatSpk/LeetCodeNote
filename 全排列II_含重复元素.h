@@ -4,7 +4,8 @@
 #include<algorithm>
 using namespace std;
 
-//题目：全排列含重复元素
+//力扣47
+//题目：全排列II_含重复元素
 //题目描述：给定一个可包含重复数字的序列 nums ，按任意顺序 返回所有不重复的全排列。
 
 //dfs函数

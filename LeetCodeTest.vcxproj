@@ -189,7 +189,7 @@
     <ClInclude Include="二维数组中的查找.h" />
     <ClInclude Include="从中序与后序遍历序列构造二叉树.h" />
     <ClInclude Include="全排列.h" />
-    <ClInclude Include="全排列含重复元素.h" />
+    <ClInclude Include="全排列II_含重复元素.h" />
     <ClInclude Include="分割回文串.h" />
     <ClInclude Include="分割等和子集.h" />
     <ClInclude Include="删除二叉搜索树中的节点.h" />
@@ -206,6 +206,7 @@
     <ClInclude Include="复杂链表的复制.h" />
     <ClInclude Include="太平洋大西洋水流问题.h" />
     <ClInclude Include="子集.h" />
+    <ClInclude Include="子集II_有重复元素.h" />
     <ClInclude Include="字符串相加.h" />
     <ClInclude Include="完全二叉树的节点个数.h" />
     <ClInclude Include="完全平方数.h" />
@@ -249,6 +250,7 @@
     <ClInclude Include="买卖股票的最佳时机I_限制买卖1次.h" />
     <ClInclude Include="翻转二叉树.h" />
     <ClInclude Include="路径总和_判断是否存在路径.h" />
+    <ClInclude Include="递增子序列_有重复元素.h" />
     <ClInclude Include="递增顺序搜索树.h" />
     <ClInclude Include="递增链表递增数组转化为二叉搜索树.h" />
     <ClInclude Include="修剪二叉搜索树.h" />
