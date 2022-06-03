@@ -524,5 +524,11 @@
     <ClInclude Include="递增子序列_有重复元素.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LRU 缓存.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LFU缓存.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

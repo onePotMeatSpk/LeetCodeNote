@@ -146,6 +146,8 @@
     <ClInclude Include="01矩阵.h" />
     <ClInclude Include="0至n-1中缺失的数字.h" />
     <ClInclude Include="includeall.h" />
+    <ClInclude Include="LFU缓存.h" />
+    <ClInclude Include="LRU 缓存.h" />
     <ClInclude Include="LRU缓存.h" />
     <ClInclude Include="n个筛子的点数.h" />
     <ClInclude Include="N叉树的层序遍历.h" />
