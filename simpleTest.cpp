@@ -1,15 +1,12 @@
 #pragma once
 #include<iostream>
-#include"LFU»º´æ.h"
+#include<string>
 using namespace std;
 
 void main()
 {
-	LFUCache cache(0);
-
-	cache.put(0, 0);
-
-	cout << "get(0)=" << cache.get(0) << endl;
+	string s = "          **-111&";
+	cout << atoi(s.c_str()) << endl;
 
 	return;
 }

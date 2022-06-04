@@ -530,5 +530,8 @@
     <ClInclude Include="LFU缓存.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="重排链表.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
