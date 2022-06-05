@@ -1,12 +1,11 @@
 #pragma once
 #include<iostream>
 #include<string>
+#include"×Ö·û´®×ª»»ÕûÊý (atoi).h"
 using namespace std;
 
 void main()
 {
-	string s = "          **-111&";
-	cout << atoi(s.c_str()) << endl;
-
+	cout << myAtoi("-2147483648");
 	return;
 }

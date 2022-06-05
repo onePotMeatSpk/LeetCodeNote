@@ -201,6 +201,7 @@
     <ClInclude Include="只有两个按键的键盘.h" />
     <ClInclude Include="合并二叉树.h" />
     <ClInclude Include="回文子串.h" />
+    <ClInclude Include="回文链表.h" />
     <ClInclude Include="在每个树行中找最大值.h" />
     <ClInclude Include="填充每个节点的下一个右侧节点指针 II.h" />
     <ClInclude Include="填充每个节点的下一个右侧节点指针.h" />
@@ -210,6 +211,7 @@
     <ClInclude Include="子集.h" />
     <ClInclude Include="子集II_有重复元素.h" />
     <ClInclude Include="字符串相加.h" />
+    <ClInclude Include="字符串转换整数 (atoi).h" />
     <ClInclude Include="完全二叉树的节点个数.h" />
     <ClInclude Include="完全平方数.h" />
     <ClInclude Include="寻找两个正序数组中的中位数.h" />
@@ -237,6 +239,7 @@
     <ClInclude Include="正则表达式匹配.h" />
     <ClInclude Include="爬楼梯.h" />
     <ClInclude Include="爬楼梯_使用最小花费.h" />
+    <ClInclude Include="用 Rand7() 实现 Rand10().h" />
     <ClInclude Include="电话号码的字母组合.h" />
     <ClInclude Include="相同的树.h" />
     <ClInclude Include="省份数量%28朋友圈%29.h" />
@@ -262,7 +265,7 @@
     <ClInclude Include="判断数组是否二叉搜索树树后序遍历结果.h" />
     <ClInclude Include="单向链表每k个节点之间逆序.h" />
     <ClInclude Include="双向链表.h" />
-    <ClInclude Include="合并两个有序的单链表.h" />
+    <ClInclude Include="合并两个有序链表.h" />
     <ClInclude Include="向有序的环形单链表中插入节点.h" />
     <ClInclude Include="和为s的两个数字.h" />
     <ClInclude Include="和为s的连续正数序列.h" />
