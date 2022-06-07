@@ -222,6 +222,7 @@
     <ClInclude Include="打家劫舍III_二叉树小区.h" />
     <ClInclude Include="搜索旋转排序数组.h" />
     <ClInclude Include="数字字符串解码方法总数.h" />
+    <ClInclude Include="数据流中的中位数.h" />
     <ClInclude Include="数组中的第K个最大元素.h" />
     <ClInclude Include="最大二叉树.h" />
     <ClInclude Include="最大子数组和.h" />
