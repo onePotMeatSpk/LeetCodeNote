@@ -545,5 +545,11 @@
     <ClInclude Include="数据流中的中位数.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="无重复字符的最长子串.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="至少有 K 个重复字符的最长子串.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -224,6 +224,7 @@
     <ClInclude Include="数字字符串解码方法总数.h" />
     <ClInclude Include="数据流中的中位数.h" />
     <ClInclude Include="数组中的第K个最大元素.h" />
+    <ClInclude Include="无重复字符的最长子串.h" />
     <ClInclude Include="最大二叉树.h" />
     <ClInclude Include="最大子数组和.h" />
     <ClInclude Include="最大正方形.h" />
@@ -255,6 +256,7 @@
     <ClInclude Include="编辑距离.h" />
     <ClInclude Include="买卖股票的最佳时机I_限制买卖1次.h" />
     <ClInclude Include="翻转二叉树.h" />
+    <ClInclude Include="至少有 K 个重复字符的最长子串.h" />
     <ClInclude Include="路径总和_判断是否存在路径.h" />
     <ClInclude Include="递增子序列_有重复元素.h" />
     <ClInclude Include="递增顺序搜索树.h" />
