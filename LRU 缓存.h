@@ -17,7 +17,7 @@ using namespace std;
 //双向链表list<pair<int, int>>，存储<key, value>键值对
 //哈希表unordered_map<int, list<int, int>::iterator>，存储key相应的链表节点
 
-
+//实现方式1：链表使用list
 class LRUCache {
 public:
 
@@ -88,6 +88,117 @@ public:
             l.push_back(pair<int, int>(key, value));
             //更改map
             map[key] = --l.end();
+        }
+    }
+};
+
+//实现方式1：自己造轮子
+class LRUCache {
+public:
+    struct Node
+    {
+        int key;
+        int val;
+        Node* prev;
+        Node* next;
+        Node() :val(0), prev(NULL), next(NULL) {}
+        Node(int k, int v) : key(k), val(v), prev(NULL), next(NULL) {}
+    };
+
+    struct List
+    {
+        Node* head;//虚头部
+        Node* tail;//虚尾部
+
+        List() : head(new Node(0, 0)), tail(new Node(0, 0)) {
+            //初始化：头尾成环
+            head->next = tail;
+            head->prev = tail;
+            tail->prev = head;
+            tail->next = head;
+        }
+
+        //尾结点
+        Node* back_node()
+        {
+            return tail->prev;
+        }
+
+        //头结点
+        Node* front_node()
+        {
+            return head->next;
+        }
+
+        //删除某节点
+        void del_node(Node* node)
+        {
+            node->prev->next = node->next;
+            node->next->prev = node->prev;
+            delete node;
+        }
+
+        //头插新节点
+        void push_front(Node* node)
+        {
+            node->next = head->next;
+            node->prev = head;
+            head->next->prev = node;
+            head->next = node;
+        }
+
+        //尾删
+        void pop_back()
+        {
+            Node* nodePop = tail->prev;
+            nodePop->prev->next = tail;
+            tail->prev = nodePop->prev;
+            delete nodePop;
+        }
+    };
+
+
+    int size;
+    int cap;
+    List list;
+    unordered_map<int, Node*> map;
+
+    LRUCache(int capacity) : size(0), cap(capacity) {}
+
+    int get(int key) {
+        if (map.find(key) == map.end())  return -1;
+
+        int tempValue = map.find(key)->second->val;
+        list.del_node(map.find(key)->second);
+        list.push_front(new Node(key, tempValue));
+        map[key] = list.front_node();
+        return map[key]->val;
+    }
+
+    void put(int key, int value) {
+        if (map.find(key) == map.end())
+        {
+            if (size == cap)
+            {
+                map.erase(list.back_node()->key);
+                list.pop_back();
+
+                list.push_front(new Node(key, value));
+                map[key] = list.front_node();
+            }
+            else
+            {
+                list.push_front(new Node(key, value));
+                map[key] = list.front_node();
+                size++;
+            }
+        }
+        else
+        {
+            list.del_node(map.find(key)->second);
+
+            list.push_front(new Node(key, value));
+            map[key] = list.front_node();
         }
     }
 };
