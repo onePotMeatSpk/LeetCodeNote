@@ -3,7 +3,8 @@
 #include<vector>
 #include"二叉树.h"
 using namespace std;
-//层序遍历，没啥好说的
+
+//实现方式1：迭代
 vector<vector<int>> levelOrder(TreeNode* root) {
 	vector<vector<int>> vAll;
 	if (!root)	return vAll;
@@ -29,5 +30,29 @@ vector<vector<int>> levelOrder(TreeNode* root) {
 		v.clear();
 	}
 
+	return vAll;
+}
+
+
+
+//实现方式2：递归
+
+//先序递归函数
+void dfs(TreeNode* root, vector<vector<int>>& vAll, int depth = 0)
+{
+	if (!root)	return;
+
+	if (vAll.size() < depth + 1)	vAll.push_back(vector<int>());
+
+	vAll[depth].push_back(root->val);
+
+	dfs(root->left, vAll, depth + 1);
+	dfs(root->right, vAll, depth + 1);
+}
+
+//主函数
+vector<vector<int>> levelOrder(TreeNode* root) {
+	vector<vector<int>> vAll;
+	dfs(root, vAll);
 	return vAll;
 }
