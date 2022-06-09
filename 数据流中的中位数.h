@@ -58,9 +58,9 @@ public:
     }
 
 public:
-    // 最大堆，存储左边一半的数据，堆顶为最大值
+    // 大顶堆，存储左边一半的数据，堆顶为最大值
     priority_queue<int, vector<int>, less<int>> maxHeap;
-    // 最小堆， 存储右边一半的数据，堆顶为最小值
+    // 小顶堆，存储右边一半的数据，堆顶为最小值
     priority_queue<int, vector<int>, greater<int>> minHeap;
 };
 
@@ -70,7 +70,7 @@ class MyHeap
 {
 private:
 	vector<int> nums;
-	bool flagMaxMin;
+	bool flagMaxMin;//1为大顶堆，0为小顶堆
 
 public:
 	MyHeap(bool flag) :flagMaxMin(flag) {}
