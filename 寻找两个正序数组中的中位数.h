@@ -1,49 +1,64 @@
-#pragma once
+ï»¿#pragma once
 #include<vector>
 using namespace std;
 
-//ÌâÄ¿£º
-//ÌâÄ¿ÃèÊö£º
-//Ë¼Â·£ºÑ°ÕÒÁ½¸öÕıĞòÊı×éÖĞµÄÖĞÎ»Êı£¬²»¾ÍÊÇÑ°ÕÒÆäÖĞµÚkĞ¡µÄÊıµÄÌØÊâÇé¿öÂğ£¬Ö»ÊÇÒª¸ù¾İÁ½¸öÊı×é³¤¶ÈÖ®ºÍµÄÆæÅ¼Çé¿ö×ö·Ö±ğ´¦Àí
+//åŠ›æ‰£4
+//é¢˜ç›®ï¼šå¯»æ‰¾ä¸¤ä¸ªæ­£åºæ•°ç»„çš„ä¸­ä½æ•°
+//é¢˜ç›®æè¿°ï¼šç»™å®šä¸¤ä¸ªå¤§å°åˆ†åˆ«ä¸º m å’Œ n çš„æ­£åºï¼ˆä»å°åˆ°å¤§ï¼‰æ•°ç»„Â nums1 å’ŒÂ nums2ã€‚è¯·ä½ æ‰¾å‡ºå¹¶è¿”å›è¿™ä¸¤ä¸ªæ­£åºæ•°ç»„çš„ ä¸­ä½æ•° ã€‚
+//          ç®—æ³•çš„æ—¶é—´å¤æ‚åº¦åº”è¯¥ä¸º O(log(m + n)) ã€‚
+//æ€è·¯:å‚è€ƒhttps://leetcode.cn/problems/median-of-two-sorted-arrays/solution/xun-zhao-liang-ge-you-xu-shu-zu-de-zhong-wei-s-114/
+//          å¯»æ‰¾ä¸¤ä¸ªæ­£åºæ•°ç»„ä¸­çš„ä¸­ä½æ•°ï¼Œä¸å°±æ˜¯å¯»æ‰¾å…¶ä¸­ç¬¬kå°çš„æ•°çš„ç‰¹æ®Šæƒ…å†µå—ï¼Œåªæ˜¯è¦æ ¹æ®ä¸¤ä¸ªæ•°ç»„é•¿åº¦ä¹‹å’Œçš„å¥‡å¶æƒ…å†µåšåˆ†åˆ«å¤„ç†
 
 
-//º¯Êı£ºÑ°ÕÒÁ½¸öÕıĞòÊı×éÖĞµÄµÚkĞ¡µÄÊı£¨¶ş·Ö·¨£©
-//¸ÃËã·¨µÄË¼Ïë£º±È½ÏÁ½¸öÊı×éÖĞµÄµÚk/2¸öÊı×Ö
-//              ÈôA[k/2]<B[k/2],¼´Ê¹BÖĞÇ°k/2-1¸öÔªËØ¾ùĞ¡ÓÚA[k/2]£¬ÓÉÓÚÊı×éµİÔö£¬¶¥¶àÓĞk-2¸öÊı×ÖĞ¡ÓÚA[k/2]£¬
-//              »»ÑÔÖ®£¬A[k/2]¶¥¶àÊÇµÚk-1Ğ¡£¬ËùÒÔAÖĞA[k/2]ÒÔ¼°ÆäÖ®Ç°µÄÊı×Ö¶¼²»¿ÉÄÜÊÇµÚkĞ¡£¬¹Ê¶ø±»ÌÔÌ­
-//              ¸üĞÂÒ»²¨k£¬²¢´Ó±»ÌÔÌ­µÄÊı×ÖÖ®ºó¿ªÊ¼ĞÂµÄµü´ú£¬Ö±µ½kÎª1
+
+
+//å‡½æ•°ï¼šå¯»æ‰¾ä¸¤ä¸ªæ­£åºæ•°ç»„ä¸­çš„ç¬¬kå°çš„æ•°ï¼ˆäºŒåˆ†æ³•ï¼‰
+//è¯¥ç®—æ³•çš„æ€æƒ³ï¼šæ¯”è¾ƒä¸¤ä¸ªæ•°ç»„ä¸­çš„ç¬¬k/2ä¸ªæ•°å­—
+//              è‹¥A[k/2]<B[k/2],å³ä½¿Bä¸­å‰k/2-1ä¸ªå…ƒç´ å‡å°äºA[k/2]ï¼Œç”±äºæ•°ç»„é€’å¢ï¼Œé¡¶å¤šæœ‰k-2ä¸ªæ•°å­—å°äºA[k/2]ï¼Œ
+//              æ¢è¨€ä¹‹ï¼ŒA[k/2]é¡¶å¤šæ˜¯ç¬¬k-1å°ï¼Œæ‰€ä»¥Aä¸­A[k/2]ä»¥åŠå…¶ä¹‹å‰çš„æ•°å­—éƒ½ä¸å¯èƒ½æ˜¯ç¬¬kå°ï¼Œæ•…è€Œè¢«æ·˜æ±°
+//              æ›´æ–°ä¸€æ³¢kï¼Œå¹¶ä»è¢«æ·˜æ±°çš„æ•°å­—ä¹‹åå¼€å§‹æ–°çš„è¿­ä»£ï¼Œç›´åˆ°kä¸º1
 //
-double findKthSmallestInTwoSortedArray(vector<int>& nums1, vector<int>& nums2, int k)
+double KthSmallin2SortedArray(vector<int>& nums1, vector<int>& nums2, int k)
 {
     int start1 = 0, start2 = 0, cur1, cur2;
-    while (k > 1)
+    while (k > 1 && start1 < nums1.size() && start2 < nums2.size())
     {
-        //
-        if (start1 == nums1.size())  return nums2[start2 + k - 1];
-        if (start2 == nums2.size())  return nums1[start1 + k - 1];
-
+        //å¦‚æœnums1ä¸­å‰©ä½™æ•°å­—ï¼Œä¸å¤Ÿk/2ä¸ªäº†ï¼Œå°±ä½¿ç”¨æœ€åä¸€ä¸ªæ•°å­—ï¼Œä¸nums2ä½œæ¯”è¾ƒ
+        //å¦‚æœå¤Ÿk/2ä¸ªï¼Œå°±ä½¿ç”¨ç¬¬start1 + k / 2 - 1ä¸ªæ•°å­—ï¼ˆä¹Ÿå°±æ˜¯å‰©ä½™æ•°å­—ä¸­çš„ï¼Œç¬¬k/2ä¸ªæ•°å­—ï¼‰ï¼Œä¸nums2ä½œæ¯”è¾ƒ
         if (start1 + k / 2 - 1 > nums1.size() - 1) cur1 = nums1.size() - 1;
         else    cur1 = start1 + k / 2 - 1;
+        //nums2åŒnums1å¤„ç†æ–¹å¼
         if (start2 + k / 2 - 1 > nums2.size() - 1) cur2 = nums2.size() - 1;
         else    cur2 = start2 + k / 2 - 1;
 
-        if (nums1[cur1] < nums2[cur2])
+        //nums1[cur1] <= nums2[cur2]ï¼Œé‚£ä¹ˆnums1[cur1]ä¹‹å‰ï¼ˆå«ï¼‰çš„æ•°å­—éƒ½ä¸å¯èƒ½æ˜¯ç¬¬kå°çš„æ•°å­—ï¼Œåˆ™æŠ›å¼ƒnums1[cur1]ä¹‹å‰ï¼ˆå«ï¼‰çš„æ‰€æœ‰æ•°å­—
+        if (nums1[cur1] <= nums2[cur2])
         {
             k -= (cur1 - start1 + 1);
             start1 = cur1 + 1;
         }
+        //åŒä¸Šé“ç†
         else
         {
             k -= (cur2 - start2 + 1);
             start2 = cur2 + 1;
         }
     }
-    if (start1 == nums1.size())  return nums2[start2 + k - 1];
-    if (start2 == nums2.size())  return nums1[start1 + k - 1];
-    return min(nums1[start1], nums2[start2]);
+
+    //å¦‚æœå¾ªç¯æ˜¯å› ä¸ºstart1 < nums1.size() && start2 < nums2.size()é€€å‡ºï¼Œè¯´æ˜å…¶ä¸­ä¸€ä¸ªæ•°ç»„ä¸­å·²ç»æ²¡æœ‰å‰©ä½™æ•°å­—äº†
+    if (start1 == nums1.size())  return nums2[start2 + k - 1];//å¦‚æœnums1ä¸­æ— å‰©ä½™æ•°å­—äº†ï¼Œå°±ç›´æ¥å–nums2ä¸­ç¬¬kä¸ª
+    if (start2 == nums2.size())  return nums1[start1 + k - 1];//åŒä¸Šé“ç†
+
+    //å¦‚æœå¾ªç¯æ˜¯å› ä¸ºk=1é€€å‡ºï¼Œç°åœ¨å°±æ˜¯å–ä¸¤æ•°ç»„çš„ç¬¬1å°çš„å€¼
+    return min(nums1[start1], nums2[start2]);//å–ä¸¤æ•°ç»„é¦–å…ƒç´ çš„æœ€å°å€¼
 }
+
+//ä¸»å‡½æ•°
 double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
     int len = nums1.size() + nums2.size();
-    if (len & 1) return findKthSmallestInTwoSortedArray(nums1, nums2, len / 2 + 1);
-    else    return (findKthSmallestInTwoSortedArray(nums1, nums2, len / 2) + findKthSmallestInTwoSortedArray(nums1, nums2, len / 2 + 1)) / 2;
+
+    //æ€»é•¿ä¸ºå¥‡æ•°
+    if (len & 1) return KthSmallin2SortedArray(nums1, nums2, len / 2 + 1);
+    //æ€»é•¿ä¸ºå¶æ•°
+    else    return (KthSmallin2SortedArray(nums1, nums2, len / 2) + KthSmallin2SortedArray(nums1, nums2, len / 2 + 1)) / 2;
 }
