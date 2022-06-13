@@ -551,5 +551,14 @@
     <ClInclude Include="至少有 K 个重复字符的最长子串.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="每日温度.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="下一个更大元素I.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="下一个更大元素II_环形数组.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

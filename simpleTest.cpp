@@ -3,7 +3,7 @@
 #include<string>
 #include<vector>
 #include<unordered_map>
-#include"至少有 K 个重复字符的最长子串.h"
+#include"下一个更大元素I.h"
 using namespace std;
 
 
@@ -11,8 +11,10 @@ using namespace std;
 
 void main()
 {
-	cout << longestSubstring("aaabb", 3);
 
+	vector<int>v1{ 4,1,2 };
+	vector<int>v2{ 1,3,4,2 };
+	nextGreaterElement(v1, v2);
 
 	return;
 

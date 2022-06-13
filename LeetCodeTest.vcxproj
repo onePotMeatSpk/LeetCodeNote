@@ -155,6 +155,8 @@
     <ClInclude Include="O(1)删除链表内某节点.h" />
     <ClInclude Include="一和零.h" />
     <ClInclude Include="三数之和.h" />
+    <ClInclude Include="下一个更大元素I.h" />
+    <ClInclude Include="下一个更大元素II_环形数组.h" />
     <ClInclude Include="不同的子序列.h" />
     <ClInclude Include="不同路径.h" />
     <ClInclude Include="不同路径II_有障碍物.h" />
@@ -239,6 +241,7 @@
     <ClInclude Include="有序数组中的单一元素.h" />
     <ClInclude Include="根据字符出现频率排序.h" />
     <ClInclude Include="正则表达式匹配.h" />
+    <ClInclude Include="每日温度.h" />
     <ClInclude Include="爬楼梯.h" />
     <ClInclude Include="爬楼梯_使用最小花费.h" />
     <ClInclude Include="用 Rand7() 实现 Rand10().h" />
