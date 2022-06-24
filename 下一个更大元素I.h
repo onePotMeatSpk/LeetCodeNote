@@ -12,32 +12,27 @@ using namespace std;
 			//返回一个长度为 nums1.length 的数组 ans 作为答案，满足 ans[i] 是如上所述的 下一个更大元素 。
 
 vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
-	vector<int> ret1(nums1.size(), -1);
-	vector<int> ret2(nums2.size(), -1);
-	unordered_map<int, int> map;
-	stack<int> s;
-	s.push(0);
-	map[nums2[0]] = 0;
+    vector<int> ret1(nums1.size(), -1);
+    vector<int> ret2(nums2.size(), -1);
 
-	for (int i = 1; i < nums2.size(); i++)
-	{
-		map[nums2[i]] = i;
+    unordered_map<int, int> umap;
 
-		if (nums2[i] <= nums2[s.top()])
-			s.push(i);
-		else
-		{
-			while (!s.empty() && nums2[i] > nums2[s.top()])
-			{
-				ret2[s.top()] = nums2[i];
-				s.pop();
-			}
-			s.push(i);
-		}
-	}
+    stack<int> s;
 
-	for (int i = 0; i < nums1.size(); i++)
-		ret1[i] = ret2[map[nums1[i]]];
+    for (int i = 0; i < nums2.size(); )
+    {
+        umap[nums2[i]] = i;
+        if (!s.empty() && nums2[i] > nums2[s.top()])
+        {
+            ret2[s.top()] = nums2[i];
+            s.pop();
+        }
+        else
+            s.push(i++);
+    }
 
-	return ret1;
+    for (int i = 0; i < ret1.size(); i++)
+        ret1[i] = ret2[umap[nums1[i]]];
+
+    return ret1;
 }
