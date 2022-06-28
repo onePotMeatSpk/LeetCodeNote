@@ -222,6 +222,7 @@
     <ClInclude Include="打家劫舍.h" />
     <ClInclude Include="打家劫舍II_环形小区.h" />
     <ClInclude Include="打家劫舍III_二叉树小区.h" />
+    <ClInclude Include="接雨水.h" />
     <ClInclude Include="搜索旋转排序数组.h" />
     <ClInclude Include="数字字符串解码方法总数.h" />
     <ClInclude Include="数据流中的中位数.h" />
@@ -239,6 +240,7 @@
     <ClInclude Include="最长递增子序列.h" />
     <ClInclude Include="最长重复子数组.h" />
     <ClInclude Include="有序数组中的单一元素.h" />
+    <ClInclude Include="柱状图中最大的矩形.h" />
     <ClInclude Include="根据字符出现频率排序.h" />
     <ClInclude Include="正则表达式匹配.h" />
     <ClInclude Include="每日温度.h" />
@@ -310,7 +312,6 @@
     <ClInclude Include="滑动窗口的最大值.h" />
     <ClInclude Include="用栈实现队列.h" />
     <ClInclude Include="用递归函数和栈逆序一个栈.h" />
-    <ClInclude Include="矩阵中最大的矩形.h" />
     <ClInclude Include="矩阵中的路径.h" />
     <ClInclude Include="翻转单词顺序.h" />
     <ClInclude Include="较为直观地打印二叉树.h" />
