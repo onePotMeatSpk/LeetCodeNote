@@ -153,6 +153,7 @@
     <ClInclude Include="N叉树的层序遍历.h" />
     <ClInclude Include="N叉树的最大深度.h" />
     <ClInclude Include="O(1)删除链表内某节点.h" />
+    <ClInclude Include="x的平方根.h" />
     <ClInclude Include="一和零.h" />
     <ClInclude Include="三数之和.h" />
     <ClInclude Include="下一个更大元素I.h" />
@@ -204,6 +205,7 @@
     <ClInclude Include="合并二叉树.h" />
     <ClInclude Include="回文子串.h" />
     <ClInclude Include="回文链表.h" />
+    <ClInclude Include="在排序数组中查找元素的第一个和最后一个位置.h" />
     <ClInclude Include="在每个树行中找最大值.h" />
     <ClInclude Include="填充每个节点的下一个右侧节点指针 II.h" />
     <ClInclude Include="填充每个节点的下一个右侧节点指针.h" />
@@ -223,6 +225,7 @@
     <ClInclude Include="打家劫舍II_环形小区.h" />
     <ClInclude Include="打家劫舍III_二叉树小区.h" />
     <ClInclude Include="接雨水.h" />
+    <ClInclude Include="搜索插入位置.h" />
     <ClInclude Include="搜索旋转排序数组.h" />
     <ClInclude Include="数字字符串解码方法总数.h" />
     <ClInclude Include="数据流中的中位数.h" />

@@ -563,5 +563,14 @@
     <ClInclude Include="柱状图中最大的矩形.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="搜索插入位置.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="在排序数组中查找元素的第一个和最后一个位置.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="x的平方根.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
