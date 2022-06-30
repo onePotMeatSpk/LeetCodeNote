@@ -572,5 +572,11 @@
     <ClInclude Include="x的平方根.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="有序数组的平方.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="比较含退格的字符串.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

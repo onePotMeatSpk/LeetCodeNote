@@ -243,10 +243,12 @@
     <ClInclude Include="最长递增子序列.h" />
     <ClInclude Include="最长重复子数组.h" />
     <ClInclude Include="有序数组中的单一元素.h" />
+    <ClInclude Include="有序数组的平方.h" />
     <ClInclude Include="柱状图中最大的矩形.h" />
     <ClInclude Include="根据字符出现频率排序.h" />
     <ClInclude Include="正则表达式匹配.h" />
     <ClInclude Include="每日温度.h" />
+    <ClInclude Include="比较含退格的字符串.h" />
     <ClInclude Include="爬楼梯.h" />
     <ClInclude Include="爬楼梯_使用最小花费.h" />
     <ClInclude Include="用 Rand7() 实现 Rand10().h" />
