@@ -198,6 +198,7 @@
     <ClInclude Include="分割回文串.h" />
     <ClInclude Include="分割等和子集.h" />
     <ClInclude Include="删除二叉搜索树中的节点.h" />
+    <ClInclude Include="删除有序数组中的重复项.h" />
     <ClInclude Include="判断子序列.h" />
     <ClInclude Include="单词拆分.h" />
     <ClInclude Include="单词接龙.h" />
@@ -256,6 +257,8 @@
     <ClInclude Include="相同的树.h" />
     <ClInclude Include="省份数量%28朋友圈%29.h" />
     <ClInclude Include="矩阵最小路径和.h" />
+    <ClInclude Include="移动零.h" />
+    <ClInclude Include="移除元素.h" />
     <ClInclude Include="等差数列数量.h" />
     <ClInclude Include="组合.h" />
     <ClInclude Include="组合总和III_只使用1至9_返回vector.h" />

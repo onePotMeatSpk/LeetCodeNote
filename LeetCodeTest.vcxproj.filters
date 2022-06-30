@@ -578,5 +578,14 @@
     <ClInclude Include="比较含退格的字符串.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="移除元素.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="移动零.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="删除有序数组中的重复项.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
