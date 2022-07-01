@@ -587,5 +587,14 @@
     <ClInclude Include="删除有序数组中的重复项.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="长度最小的子数组.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="水果成篮.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="最小覆盖子串.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -235,6 +235,7 @@
     <ClInclude Include="最大二叉树.h" />
     <ClInclude Include="最大子数组和.h" />
     <ClInclude Include="最大正方形.h" />
+    <ClInclude Include="最小覆盖子串.h" />
     <ClInclude Include="最小高度树.h" />
     <ClInclude Include="最短的桥（填海造陆）.h" />
     <ClInclude Include="最长公共子序列.h" />
@@ -250,6 +251,7 @@
     <ClInclude Include="正则表达式匹配.h" />
     <ClInclude Include="每日温度.h" />
     <ClInclude Include="比较含退格的字符串.h" />
+    <ClInclude Include="水果成篮.h" />
     <ClInclude Include="爬楼梯.h" />
     <ClInclude Include="爬楼梯_使用最小花费.h" />
     <ClInclude Include="用 Rand7() 实现 Rand10().h" />
@@ -327,6 +329,7 @@
     <ClInclude Include="部分反转链表.h" />
     <ClInclude Include="重排链表.h" />
     <ClInclude Include="链表中的两数相加.h" />
+    <ClInclude Include="长度最小的子数组.h" />
     <ClInclude Include="队列的最大值.h" />
     <ClInclude Include="零钱兑换.h" />
     <ClInclude Include="零钱兑换II_凑成总金额的组合数.h" />
