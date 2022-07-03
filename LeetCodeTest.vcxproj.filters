@@ -596,5 +596,8 @@
     <ClInclude Include="最小覆盖子串.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="螺旋矩阵 II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

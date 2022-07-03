@@ -272,6 +272,7 @@
     <ClInclude Include="买卖股票的最佳时机I_限制买卖1次.h" />
     <ClInclude Include="翻转二叉树.h" />
     <ClInclude Include="至少有 K 个重复字符的最长子串.h" />
+    <ClInclude Include="螺旋矩阵 II.h" />
     <ClInclude Include="路径总和_判断是否存在路径.h" />
     <ClInclude Include="递增子序列_有重复元素.h" />
     <ClInclude Include="递增顺序搜索树.h" />
