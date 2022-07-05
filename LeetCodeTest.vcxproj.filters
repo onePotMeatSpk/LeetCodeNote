@@ -599,5 +599,11 @@
     <ClInclude Include="螺旋矩阵 II.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="四数相加II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="四数之和.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
