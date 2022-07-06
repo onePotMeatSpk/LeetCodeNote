@@ -336,6 +336,7 @@
     <ClInclude Include="队列的最大值.h" />
     <ClInclude Include="零钱兑换.h" />
     <ClInclude Include="零钱兑换II_凑成总金额的组合数.h" />
+    <ClInclude Include="颠倒字符串中的单词.h" />
     <ClInclude Include="验证二叉搜索树.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

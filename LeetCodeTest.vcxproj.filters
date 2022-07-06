@@ -605,5 +605,8 @@
     <ClInclude Include="四数之和.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="颠倒字符串中的单词.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
