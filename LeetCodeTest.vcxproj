@@ -221,6 +221,7 @@
     <ClInclude Include="字符串转换整数 (atoi).h" />
     <ClInclude Include="完全二叉树的节点个数.h" />
     <ClInclude Include="完全平方数.h" />
+    <ClInclude Include="实现 strStr%28%29_KMP算法.h" />
     <ClInclude Include="寻找两个正序数组中的中位数.h" />
     <ClInclude Include="将有序数组转换为二叉搜索树.h" />
     <ClInclude Include="岛屿的最大面积.h" />
