@@ -331,6 +331,7 @@
     <ClInclude Include="较为直观地打印二叉树.h" />
     <ClInclude Include="通过前序和中序数组生成后序数组.h" />
     <ClInclude Include="部分反转链表.h" />
+    <ClInclude Include="重复的子字符串_kmp.h" />
     <ClInclude Include="重排链表.h" />
     <ClInclude Include="链表中的两数相加.h" />
     <ClInclude Include="长度最小的子数组.h" />

@@ -611,5 +611,8 @@
     <ClInclude Include="实现 strStr%28%29_KMP算法.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="重复的子字符串_kmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
