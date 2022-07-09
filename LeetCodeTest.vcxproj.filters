@@ -623,5 +623,8 @@
     <ClInclude Include="删除字符串中的所有相邻重复项.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="逆波兰表达式求值.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
