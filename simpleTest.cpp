@@ -4,14 +4,14 @@
 #include<string>
 #include<iostream>
 #include<typeinfo>
-#include"四数之和.h"
+#include<stack>
+#include<iostream>
 using namespace std;
 
 void main()
 {
-    vector<int> next = getNext("issip");
-    for (int i = 0; i < next.size(); i++)
-        cout << i << " ";
-    cout << endl;
+    stack<int>s;
+   
+    cout << s.top() << endl;
 	return;
 }

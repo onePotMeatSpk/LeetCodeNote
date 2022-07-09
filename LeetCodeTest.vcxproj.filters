@@ -614,5 +614,14 @@
     <ClInclude Include="重复的子字符串_kmp.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="有效的括号.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="用队列实现栈.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="删除字符串中的所有相邻重复项.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
