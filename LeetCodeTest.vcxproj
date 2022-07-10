@@ -201,6 +201,7 @@
     <ClInclude Include="删除字符串中的所有相邻重复项.h" />
     <ClInclude Include="删除有序数组中的重复项.h" />
     <ClInclude Include="判断子序列.h" />
+    <ClInclude Include="前 K 个高频元素.h" />
     <ClInclude Include="单词拆分.h" />
     <ClInclude Include="单词接龙.h" />
     <ClInclude Include="只有两个按键的键盘.h" />

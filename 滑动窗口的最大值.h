@@ -1,63 +1,53 @@
-#pragma once
+﻿#pragma once
 #include<deque>
 #include<vector>
 using namespace std;
+//力扣239
+//滑动窗口的最大值
+//题干：给你一个整数数组 nums，有一个大小为 k 的滑动窗口从数组的最左侧移动到数组的最右侧。
+        //你只可以看到在滑动窗口内的 k 个数字。滑动窗口每次只向右移动一位。
+        //返回 滑动窗口中的最大值 。
 
-void push_new(int value, deque<int>& deq)
+
+class MyQueue
 {
-	if (value > deq.front())
-	{
-		deq.clear();
-		deq.push_back(value);
-		return;
-	}
+private:
+    deque<int> dq;
+public:
+    void push(int x)
+    {
+        while (!dq.empty() && dq.back() < x)
+            dq.pop_back();
+        dq.push_back(x);
+    }
 
-	while (1)
-	{
-		if (value <= deq.back())
-		{
-			deq.push_back(value);
-			return;
-		}
-		else
-			deq.pop_back();
-	}
-}
+    void pop(int x)
+    {
+        if (x == dq.front())
+            dq.pop_front();
+    }
 
-void pop_old(int value, deque<int>& deq)
-{
-	if (value == deq.front())
-		deq.pop_front();
-}
+    int front()
+    {
+        return dq.front();
+    }
 
-vector<int> maxSlidingWindow(vector<int>& nums, int k)
-{
-	deque<int>dequeSlidingWindow;
-	vector<int>vectorMaxNums;
-	int left = 0, right = k;
+};
 
-	//³����
-	if (nums.size() < k)
-		return vectorMaxNums;
-	if(nums.empty())
-		return vectorMaxNums;
-	if (k == 0)
-		return vectorMaxNums;
+vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+    vector<int> ret;
+    MyQueue q;
 
-	//��ʼ�������б�
-	if (dequeSlidingWindow.empty())
-		dequeSlidingWindow.push_back(nums[0]);
-	for (int i = 1; i < k; i++)
-		push_new(nums[i], dequeSlidingWindow);
-	vectorMaxNums.push_back(dequeSlidingWindow.front());
+    for (int i = 0; i < k; i++)
+        q.push(nums[i]);
+    ret.push_back(q.front());
 
-	//���µ����б��ͷ�������
-	while (right < nums.size())
-	{
-		push_new(nums[right++], dequeSlidingWindow);
-		pop_old(nums[left++], dequeSlidingWindow);
-		vectorMaxNums.push_back(dequeSlidingWindow.front());
-	}
+    for (int i = k; i < nums.size(); i++)
+    {
+        q.pop(nums[i - k]);
+        q.push(nums[i]);
+        ret.push_back(q.front());
+    }
 
-	return vectorMaxNums;
+    return ret;
 }
