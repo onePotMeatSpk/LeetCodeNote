@@ -632,5 +632,8 @@
     <ClInclude Include="划分为k个相等的子集.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="排序链表.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

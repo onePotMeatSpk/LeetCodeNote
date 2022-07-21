@@ -231,6 +231,7 @@
     <ClInclude Include="打家劫舍.h" />
     <ClInclude Include="打家劫舍II_环形小区.h" />
     <ClInclude Include="打家劫舍III_二叉树小区.h" />
+    <ClInclude Include="排序链表.h" />
     <ClInclude Include="接雨水.h" />
     <ClInclude Include="搜索插入位置.h" />
     <ClInclude Include="搜索旋转排序数组.h" />
