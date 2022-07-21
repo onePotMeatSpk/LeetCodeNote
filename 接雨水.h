@@ -9,33 +9,33 @@ using namespace std;
 //方法1：动态规划，按列接水
 int trap(vector<int>& height)
 {
-    if (height.size() < 3)
+    if (height.size() <= 2)
         return 0;
 
     int len = height.size();
-    vector<int> maxFront(len, 0);
-    vector<int> maxBack(len, 0);
+    vector<int> next(len, 0);
+    vector<int> prev(len, 0);
 
-    int temp = height[0];
+    int maxNum = 0;
     for (int i = 0; i < len; i++)
-    {
-        maxFront[i] = height[i] > temp ? height[i] : temp;
-        temp = height[i] > temp ? height[i] : temp;
-    }
+        if (maxNum > height[i])
+            prev[i] = maxNum;
+        else
+            maxNum = height[i];
 
-    temp = height[len - 1];
+    maxNum = 0;
     for (int i = len - 1; i >= 0; i--)
-    {
-        maxBack[i] = height[i] > temp ? height[i] : temp;
-        temp = height[i] > temp ? height[i] : temp;
-    }
+        if (maxNum > height[i])
+            next[i] = maxNum;
+        else
+            maxNum = height[i];
 
-    temp = 0;
+    int sum = 0;
+    for (int i = 0; i < len; i++)
+        if (prev[i] && next[i])
+            sum += (min(prev[i], next[i]) - height[i]);
 
-    for (int i = 1; i < len - 1; i++)
-        temp += min(maxFront[i], maxBack[i]) - height[i];
-
-    return temp;
+    return sum;
 }
 
 //方法2：单调栈，按行接水

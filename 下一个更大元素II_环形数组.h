@@ -12,26 +12,19 @@ using namespace std;
 
 
 vector<int> nextGreaterElements(vector<int>& nums) {
-	int len = nums.size();
-	vector<int>	ret(len, -1);
-	stack<int>	s;
-	s.push(0);
+    int len = nums.size();
+    vector<int> ret(len, -1);
+    stack<int> s;
 
-	for (int i = 0; i < len * 2; i++)
-	{
-		if (nums[i % len] <= nums[s.top()])
-			s.push(i % len);
-		else
-		{
-			while (!s.empty() && nums[i % len] > nums[s.top()])
-			{
-				ret[s.top()] = nums[i % len];
-				s.pop();
-			}
-
-			s.push(i % len);
-		}
-	}
-
-	return ret;
+    for (int i = 0; i < len * 2; i++)
+    {
+        while (!s.empty() && nums[i % len] > nums[s.top() % len])
+        {
+            if (s.top() < len)
+                ret[s.top()] = nums[i % len];
+            s.pop();
+        }
+        s.push(i);
+    }
+    return ret;
 }

@@ -629,5 +629,8 @@
     <ClInclude Include="前 K 个高频元素.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="划分为k个相等的子集.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

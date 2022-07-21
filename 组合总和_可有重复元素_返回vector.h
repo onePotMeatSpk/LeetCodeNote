@@ -9,35 +9,27 @@ using namespace std;
 //			candidates 中的 同一个 数字可以   无限制重复   被选取 。如果至少一个数字的被选数量不同，则两种组合是不同的。 
 
 //回溯法
-void back(vector<int>& candidates, const int& target, int& sum, vector<int>& v, vector<vector<int>>& ret, int index = 0)
+void back(vector<int>& candidates, vector<vector<int>>& vAll, vector<int>& v, int target, int index = 0)
 {
-    if (target == sum)
+    if (target == 0)
     {
-        ret.push_back(v);
+        vAll.push_back(v);
         return;
     }
-    if (sum > target)    return;
-    if (index == candidates.size() && target < sum)  return;
+    if (target < 0)
+        return;
 
-    for (; index < candidates.size(); index++)
-        for (int i = 1; i <= (target - sum) / candidates[index]; i++)
-        {
-            sum += candidates[index] * i;
-            for (int j = 0; j < i; j++)
-                v.push_back(candidates[index]);
-
-            back(candidates, target, sum, v, ret, index + 1);
-
-            for (int j = 0; j < i; j++)
-                v.pop_back();
-            sum -= candidates[index] * i;
-        }
+    for (int i = index; i < candidates.size(); i++)
+    {
+        v.push_back(candidates[i]);
+        back(candidates, vAll, v, target - candidates[i], i);// 不用i+1了，表示可以重复读取当前的数
+        v.pop_back();
+    }
 }
 
 vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-    vector<vector<int>> ret;
+    vector<vector<int>> vAll;
     vector<int> v;
-    int sum = 0;
-    back(candidates, target, sum, v, ret, 0);
-    return ret;
+    back(candidates, vAll, v, target);
+    return vAll;
 }

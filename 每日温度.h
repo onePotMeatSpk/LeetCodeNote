@@ -9,17 +9,19 @@ using namespace std;
 //			如果气温在这之后都不会升高，请在该位置用 0 来代替。
 
 vector<int> dailyTemperatures(vector<int>& temperatures) {
-    vector<int> ret(temperatures.size(), 0);
+    int len = temperatures.size();
+    vector<int> ret(len, 0);
     stack<int> s;
-    for (int i = 0; i < temperatures.size(); )
+
+    for (int i = 0; i < len; i++)
     {
-        if (s.size() && temperatures[i] > temperatures[s.top()])
+        while (!s.empty() && temperatures[i] > temperatures[s.top()])
         {
             ret[s.top()] = i - s.top();
             s.pop();
         }
-        else
-            s.push(i++);
+
+        s.push(i);
     }
 
     return ret;

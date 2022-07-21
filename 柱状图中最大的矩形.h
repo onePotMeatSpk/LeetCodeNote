@@ -48,9 +48,10 @@ int largestRectangleArea(vector<int>& heights) {
     int maxArea = 0;
     //以i处数字作为矩形的高，求该矩形最大的面积
     for (int i = 0; i < len; i++)
-        maxArea = maxArea > heights[i] * (minBack[i] - minFront[i] - 1)
-        ? maxArea : heights[i] * (minBack[i] - minFront[i] - 1);
+    {
+        int nowArea = (minBack[i] - minFront[i] - 1) * heights[i];
+        maxArea = max(maxArea, nowArea);
+    }
 
     return maxArea;
-
 }

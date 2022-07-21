@@ -13,26 +13,22 @@ using namespace std;
 
 vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
     vector<int> ret1(nums1.size(), -1);
-    vector<int> ret2(nums2.size(), -1);
-
     unordered_map<int, int> umap;
-
     stack<int> s;
 
-    for (int i = 0; i < nums2.size(); )
+    for (int i = 0; i < nums2.size(); i++)
     {
-        umap[nums2[i]] = i;
-        if (!s.empty() && nums2[i] > nums2[s.top()])
+        while (!s.empty() && nums2[i] > nums2[s.top()])
         {
-            ret2[s.top()] = nums2[i];
+            umap[nums2[s.top()]] = nums2[i];
             s.pop();
         }
-        else
-            s.push(i++);
+        s.push(i);
     }
 
     for (int i = 0; i < ret1.size(); i++)
-        ret1[i] = ret2[umap[nums1[i]]];
+        if (umap.find(nums1[i]) != umap.end())
+            ret1[i] = umap[nums1[i]];
 
     return ret1;
 }
